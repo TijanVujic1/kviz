@@ -34,6 +34,7 @@ const restartBtn = document.getElementById("restartBtn");
 const homeBtn = document.getElementById("homeBtn");
 
 const favoriteBtn = document.getElementById("favoriteBtn");
+const quitBtn = document.getElementById("quitBtn");
 
 // ===============================
 // STANJE APLIKACIJE
@@ -115,7 +116,7 @@ function startQuiz() {
     selectedCategories.includes(q.category),
   );
 
-  // učni / izpitni način
+  // Izbira načina kviza
 
   if (gameMode === "mistakes") {
     questions = filteredQuestions.filter((q) => wrongQuestions.includes(q.id));
@@ -125,20 +126,30 @@ function startQuiz() {
     questions = filteredQuestions;
   }
 
+  // Premešaj vprašanja
   shuffleArray(questions);
 
+  // Izpitni način: samo 30 vprašanj
   if (gameMode === "exam") {
     questions = questions.slice(0, 30);
   }
 
-  // zaščita pred praznim seznamom
-
+  // Če ni vprašanj
   if (questions.length === 0) {
-    alert("Ni vprašanj za izbran način.");
+    let message = "Ni vprašanj za izbran način.";
+
+    if (gameMode === "mistakes") {
+      message = "🎉 Trenutno nimaš vprašanj za ponavljanje napak!";
+    } else if (gameMode === "favorites") {
+      message = "⭐ Nimaš označenih vprašanj.";
+    }
+
+    alert(message);
 
     return;
   }
 
+  // Prikaži kviz
   startScreen.classList.add("hidden");
 
   resultScreen.classList.add("hidden");
@@ -202,12 +213,12 @@ function selectAnswer(button, selectedIndex) {
 
   const buttons = document.querySelectorAll(".option-btn");
 
+  // Onemogoči vse gumbe
   buttons.forEach((btn) => {
     btn.disabled = true;
   });
 
-  // statistika po kategorijah
-
+  // Inicializacija statistike
   if (!categoryStats[q.category]) {
     categoryStats[q.category] = {
       correct: 0,
@@ -217,7 +228,9 @@ function selectAnswer(button, selectedIndex) {
 
   categoryStats[q.category].total++;
 
-  // pravilen odgovor
+  // ==========================
+  // PRAVILEN ODGOVOR
+  // ==========================
 
   if (selectedIndex === q.answer) {
     button.classList.add("correct");
@@ -229,24 +242,32 @@ function selectAnswer(button, selectedIndex) {
     score++;
 
     scoreElement.textContent = score;
+
+    // Če smo v načinu "Ponavljaj napake",
+    // odstrani vprašanje iz napak
+    if (gameMode === "mistakes") {
+      wrongQuestions = wrongQuestions.filter((id) => id !== q.id);
+
+      localStorage.setItem("wrongQuestions", JSON.stringify(wrongQuestions));
+    }
   }
 
-  // napačen odgovor
+  // ==========================
+  // NAPAČEN ODGOVOR
+  // ==========================
   else {
     button.classList.add("wrong");
 
     feedback.textContent = "❌ Napačen odgovor.";
 
-    // shrani med napake
-
+    // Shrani med napake
     if (!wrongQuestions.includes(q.id)) {
       wrongQuestions.push(q.id);
 
       localStorage.setItem("wrongQuestions", JSON.stringify(wrongQuestions));
     }
 
-    // pokaži pravilen odgovor
-
+    // Označi pravilen odgovor
     buttons.forEach((btn) => {
       if (btn.textContent === q.options[q.answer]) {
         btn.classList.add("correct");
@@ -254,17 +275,25 @@ function selectAnswer(button, selectedIndex) {
     });
   }
 
-  // shrani statistiko
+  // ==========================
+  // SHRANI STATISTIKO
+  // ==========================
 
   localStorage.setItem("categoryStats", JSON.stringify(categoryStats));
 
-  // razlaga samo v učnem načinu
+  // ==========================
+  // RAZLAGA
+  // ==========================
 
-  if (gameMode === "study") {
+  if (gameMode === "study" && q.explanation) {
     explanation.classList.remove("hidden");
 
     explanation.innerHTML = `<strong>Razlaga:</strong><br>${q.explanation}`;
   }
+
+  // ==========================
+  // GUMB NASLEDNJE
+  // ==========================
 
   nextBtn.classList.remove("hidden");
 }
@@ -296,7 +325,11 @@ function finishQuiz() {
 
   const percentage = (score / questions.length) * 100;
 
-  grade.textContent = getGrade(percentage);
+  if (gameMode === "mistakes" && wrongQuestions.length === 0) {
+    grade.textContent = "🎉 Odpravil si vse svoje napake!";
+  } else {
+    grade.textContent = getGrade(percentage);
+  }
 
   // odstrani staro statistiko
 
@@ -462,3 +495,15 @@ function shuffleArray(array) {
 function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
+
+quitBtn.addEventListener("click", () => {
+  const confirmQuit = confirm("Ali želiš končati kviz?");
+
+  if (!confirmQuit) return;
+
+  quizScreen.classList.add("hidden");
+
+  resultScreen.classList.add("hidden");
+
+  startScreen.classList.remove("hidden");
+});

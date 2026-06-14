@@ -423,9 +423,50 @@ body {
   transform: translateY(0);
 }
 
-.favorite-container {
+.quiz-actions {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+
+  gap: 15px;
+}
+
+#quitBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: auto;
+  min-width: 160px;
+
+  padding: 10px 18px;
+
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+#quitBtn:hover {
+  background: rgba(239, 68, 68, 0.2);
+
+  transform: translateY(-2px);
+}
+
+#quitBtn:active {
+  transform: translateY(0);
 }
 /* STATISTIKA */
 
