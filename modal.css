@@ -1,0 +1,258 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  z-index: 1000;
+
+  transition:
+    opacity 0.18s ease,
+    visibility 0.18s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 850px;
+
+  background: rgba(20, 33, 61, 0.95);
+
+  border-radius: 28px;
+
+  padding: 35px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+
+  backdrop-filter: blur(18px);
+
+  transform: translateY(12px) scale(0.98);
+
+  opacity: 0;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.modal-overlay.active .modal-content {
+  transform: translateY(0) scale(1);
+
+  opacity: 1;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.modal-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.close-modal {
+  width: 44px;
+  height: 44px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  color: white;
+
+  font-size: 1.4rem;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.close-modal:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: scale(1.05);
+}
+
+.categories-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+.categories-grid input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.categories-grid label {
+  cursor: pointer;
+}
+
+.categories-grid span {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  width: 100%;
+
+  padding: 18px 22px;
+
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 2px solid transparent;
+
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.categories-grid span:hover {
+  background: rgba(255, 255, 255, 0.075);
+
+  transform: translateY(-1px);
+}
+
+.categories-grid span::before {
+  content: "";
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 8px;
+
+  border: 2px solid rgba(255, 255, 255, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.18s ease;
+
+  flex-shrink: 0;
+}
+
+.categories-grid input:checked + span {
+  border-color: rgba(56, 189, 248, 0.45);
+
+  background: rgba(56, 189, 248, 0.12);
+}
+
+.categories-grid input:checked + span::before {
+  transform: scale(1.05);
+  content: "✓";
+
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+
+  border-color: transparent;
+
+  color: white;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 12px;
+
+  margin-top: 35px;
+}
+
+.modal-actions button {
+  padding: 14px 24px;
+
+  border: none;
+  border-radius: 14px;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.18s ease,
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.secondary-btn {
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.14);
+
+  transform: translateY(-1px);
+}
+
+.save-btn {
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+
+  color: white;
+
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+}
+
+.save-btn:hover {
+  transform: translateY(-1px);
+
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.4);
+}
+
+.categories-grid label:active span,
+.modal-actions button:active,
+.close-modal:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 25px;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+}

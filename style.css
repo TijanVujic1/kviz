@@ -19,6 +19,8 @@ body {
 .background {
   position: fixed;
   inset: 0;
+  z-index: -1;
+
   background:
     radial-gradient(
       circle at top left,
@@ -31,11 +33,56 @@ body {
       transparent 40%
     ),
     linear-gradient(135deg, #020617, #0f172a, #1e293b);
-
-  z-index: -1;
 }
 
-/* ===== GLAVNI CONTAINER ===== */
+/* ===== FVV STUDY HUB ===== */
+
+.subject-btn {
+  text-decoration: none;
+  text-align: center;
+}
+
+.subject-btn i {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.subject-btn span {
+  display: block;
+  margin-top: 10px;
+}
+
+.subject-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.subject-btn.disabled:hover {
+  transform: none;
+  border-color: transparent;
+}
+
+.home-container h1,
+.start-screen h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home-container .subtitle,
+.subtitle {
+  margin-bottom: 40px;
+}
+
+.best-score {
+  margin-top: 20px;
+  text-align: center;
+
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* ===== CONTAINER ===== */
 
 .container {
   width: 100%;
@@ -43,8 +90,6 @@ body {
   margin: auto;
   padding: 30px 20px;
 }
-
-/* ===== SKRIJ ELEMENT ===== */
 
 .hidden {
   display: none;
@@ -60,29 +105,28 @@ body {
 .logo {
   font-size: 4rem;
   color: #38bdf8;
-  margin-bottom: 20px;
-}
 
-.start-screen h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .subtitle {
   color: #cbd5e1;
-  margin-bottom: 40px;
 }
 
-/* ===== NAČINI IGRANJA ===== */
+/* ===== NAČINI ===== */
 
 .game-modes {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   gap: 20px;
+
   margin-bottom: 40px;
 }
 
 .mode-btn {
+  position: relative;
+
   background: rgba(30, 41, 59, 0.9);
   color: white;
 
@@ -101,16 +145,21 @@ body {
 
 .mode-btn i {
   display: block;
+
   font-size: 2rem;
+
   margin-bottom: 15px;
 }
 
 .mode-btn span {
   display: block;
+
+  margin-top: 10px;
+
+  color: #94a3b8;
+
   font-size: 0.9rem;
   font-weight: 400;
-  color: #94a3b8;
-  margin-top: 10px;
 }
 
 .mode-btn:hover {
@@ -120,49 +169,13 @@ body {
 
 .mode-btn.active {
   border-color: #38bdf8;
+
   background: rgba(56, 189, 248, 0.15);
+
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
 }
 
-/* ===== KATEGORIJE ===== */
-
-.category-selection h2 {
-  margin-bottom: 20px;
-}
-
-.categories {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-
-  margin-bottom: 40px;
-}
-
-.category input {
-  display: none;
-}
-
-.category span {
-  display: inline-block;
-
-  padding: 12px 18px;
-
-  background: #1e293b;
-
-  border-radius: 999px;
-
-  cursor: pointer;
-
-  transition: 0.3s;
-}
-
-.category input:checked + span {
-  background: #38bdf8;
-  color: #0f172a;
-  font-weight: 600;
-}
-
-/* ===== GUMB ZA ZAČETEK ===== */
+/* ===== GUMBI ===== */
 
 .start-btn,
 .next-btn,
@@ -172,7 +185,6 @@ body {
   color: white;
 
   border: none;
-
   border-radius: 15px;
 
   padding: 16px 30px;
@@ -189,6 +201,7 @@ body {
 .next-btn:hover,
 .result-buttons button:hover {
   transform: translateY(-3px);
+
   box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
 }
 
@@ -200,8 +213,9 @@ body {
 
 .quiz-info {
   display: flex;
-  gap: 20px;
   justify-content: space-between;
+
+  gap: 20px;
 
   margin-bottom: 20px;
 }
@@ -209,13 +223,13 @@ body {
 .info-box {
   flex: 1;
 
-  background: rgba(30, 41, 59, 0.9);
-
-  border-radius: 15px;
-
   padding: 15px;
 
   text-align: center;
+
+  background: rgba(30, 41, 59, 0.9);
+
+  border-radius: 15px;
 }
 
 .info-box span {
@@ -230,7 +244,7 @@ body {
   font-size: 1.3rem;
 }
 
-/* ===== PROGRESS BAR ===== */
+/* ===== PROGRESS ===== */
 
 .progress-container {
   width: 100%;
@@ -239,32 +253,31 @@ body {
 .progress-bar {
   height: 12px;
 
+  overflow: hidden;
+
   background: #1e293b;
 
   border-radius: 999px;
-
-  overflow: hidden;
 }
 
 .progress-fill {
   height: 100%;
-
-  width: 0%;
+  width: 0;
 
   background: linear-gradient(90deg, #38bdf8, #2563eb);
 
   transition: width 0.4s ease;
 }
 
-/* ===== KARTICA VPRAŠANJA ===== */
+/* ===== KARTICE ===== */
 
 .quiz-card,
 .result-card {
+  padding: 40px;
+
   background: rgba(30, 41, 59, 0.95);
 
   border-radius: 25px;
-
-  padding: 40px;
 
   animation: fadeIn 0.4s ease;
 }
@@ -280,21 +293,20 @@ body {
 .options-container {
   display: flex;
   flex-direction: column;
+
   gap: 15px;
 }
 
 .option-btn {
-  background: #334155;
-
-  color: white;
-
-  border: none;
-
-  border-radius: 16px;
-
   padding: 18px;
 
   text-align: left;
+
+  background: #334155;
+  color: white;
+
+  border: none;
+  border-radius: 16px;
 
   font-size: 1rem;
 
@@ -335,9 +347,9 @@ body {
 
   padding: 20px;
 
-  border-radius: 15px;
-
   background: rgba(15, 23, 42, 0.7);
+
+  border-radius: 15px;
 
   color: #cbd5e1;
 
@@ -363,47 +375,46 @@ body {
 }
 
 .final-score {
-  font-size: 3rem;
-
   margin: 20px 0;
 
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .grade {
+  margin-bottom: 30px;
+
   color: #38bdf8;
 
   font-size: 1.5rem;
-
-  margin-bottom: 30px;
 }
 
 .result-buttons {
   display: flex;
   justify-content: center;
+
   gap: 15px;
 }
 
-/* FAVORITE GUMB */
+/* ===== AKCIJSKI GUMBI ===== */
 
-#favoriteBtn {
-  margin-top: 15px;
+.quiz-actions {
+  display: flex;
+  gap: 10px;
 
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  margin-top: 20px;
+}
 
-  width: auto;
-  min-width: 180px;
+#favoriteBtn,
+#quitBtn {
+  flex: 1;
 
-  padding: 10px 18px;
+  min-width: 0;
+
+  padding: 12px 10px;
 
   border: none;
   border-radius: 12px;
-
-  background: rgba(245, 158, 11, 0.15);
-  color: #fbbf24;
 
   font-size: 0.9rem;
   font-weight: 600;
@@ -411,6 +422,11 @@ body {
   cursor: pointer;
 
   transition: all 0.25s ease;
+}
+
+#favoriteBtn {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
 }
 
 #favoriteBtn:hover {
@@ -419,44 +435,9 @@ body {
   transform: translateY(-2px);
 }
 
-#favoriteBtn:active {
-  transform: translateY(0);
-}
-
-.quiz-actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-top: 20px;
-
-  gap: 15px;
-}
-
 #quitBtn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  width: auto;
-  min-width: 160px;
-
-  padding: 10px 18px;
-
-  margin-top: 15px;
-
-  border: none;
-  border-radius: 12px;
-
   background: rgba(239, 68, 68, 0.12);
   color: #f87171;
-
-  font-size: 0.9rem;
-  font-weight: 600;
-
-  cursor: pointer;
-
-  transition: all 0.25s ease;
 }
 
 #quitBtn:hover {
@@ -465,28 +446,12 @@ body {
   transform: translateY(-2px);
 }
 
+#favoriteBtn:active,
 #quitBtn:active {
   transform: translateY(0);
 }
 
-.quiz-actions {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-#quitBtn,
-#favoriteBtn {
-  flex: 1;
-  width: auto;
-  min-width: 0;
-
-  padding: 12px 10px;
-
-  font-size: 0.9rem;
-}
-
-/* STATISTIKA */
+/* ===== STATISTIKA ===== */
 
 .stats {
   margin-top: 30px;
@@ -508,35 +473,12 @@ body {
 
 .stats-row {
   display: flex;
-
   justify-content: space-between;
 
   margin: 10px 0;
 }
 
-/* NOVI NAČINI */
-
-.mode-btn {
-  position: relative;
-}
-
-.mode-btn.active {
-  border: 2px solid #38bdf8;
-
-  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
-}
-
-/* REKORD */
-
-.best-score {
-  margin-top: 20px;
-
-  color: #94a3b8;
-
-  font-size: 0.95rem;
-}
-
-/* PRAZEN NAČIN */
+/* ===== PRAZEN ZASLON ===== */
 
 .empty-state {
   padding: 30px;
@@ -552,6 +494,105 @@ body {
   margin-bottom: 15px;
 
   color: #f59e0b;
+}
+
+/* ===== NAZAJ DOMOV ===== */
+
+.back-home {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 18px;
+
+  color: white;
+  text-decoration: none;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 14px;
+
+  backdrop-filter: blur(12px);
+
+  transition: all 0.25s ease;
+
+  z-index: 100;
+}
+
+.back-home:hover {
+  transform: translateX(-4px);
+
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.back-home i {
+  font-size: 1rem;
+}
+
+/* ===== IZBRANA POGLAVJA ===== */
+
+.selected-categories h3 {
+  margin-bottom: 6px;
+
+  font-size: 1.6rem;
+}
+
+.selected-categories p {
+  color: #94a3b8;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* ===== PRILAGODI POGLAVJA ===== */
+
+.customize-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-top: 10px;
+  margin-bottom: 24px;
+
+  padding: 12px 20px;
+
+  background: rgba(255, 255, 255, 0.06);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 14px;
+
+  color: white;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+.customize-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+
+  border-color: rgba(56, 189, 248, 0.35);
+
+  transform: translateY(-2px);
+}
+
+.customize-btn i {
+  color: #38bdf8;
+
+  font-size: 1rem;
 }
 
 /* ===== ANIMACIJE ===== */
@@ -590,12 +631,15 @@ body {
 
   .quiz-card {
     margin: 15px;
+
     padding: 25px 20px;
+
     border-radius: 24px;
   }
 
   #question {
     font-size: 2rem;
+
     line-height: 1.3;
   }
 
@@ -605,6 +649,7 @@ body {
 
   .stats-grid {
     grid-template-columns: repeat(3, 1fr);
+
     gap: 10px;
   }
 
@@ -622,7 +667,22 @@ body {
 
   .option-container.truefalse {
     display: grid;
+
     grid-template-columns: 1fr 1fr;
+
     gap: 12px;
+  }
+
+  .back-home {
+    top: 20px;
+    left: 20px;
+
+    padding: 10px 14px;
+
+    font-size: 0.9rem;
+  }
+
+  .back-home span {
+    display: none;
   }
 }

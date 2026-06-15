@@ -52,6 +52,10 @@ let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 let categoryStats = JSON.parse(localStorage.getItem("categoryStats")) || {};
 
+function getQuestionKey(question) {
+  return `${question.subject}-${question.id}`;
+}
+
 // ===============================
 // IZBIRA NAČINA
 // ===============================
@@ -109,7 +113,7 @@ function startQuiz() {
   currentQuestion = 0;
 
   const selectedCategories = [
-    ...document.querySelectorAll(".category input:checked"),
+    ...document.querySelectorAll(".categories-grid input:checked"),
   ].map((cb) => cb.value);
 
   const filteredQuestions = QUESTIONS.filter((q) =>
@@ -119,9 +123,13 @@ function startQuiz() {
   // Izbira načina kviza
 
   if (gameMode === "mistakes") {
-    questions = filteredQuestions.filter((q) => wrongQuestions.includes(q.id));
+    questions = filteredQuestions.filter((q) =>
+      wrongQuestions.includes(getQuestionKey(q)),
+    );
   } else if (gameMode === "favorites") {
-    questions = filteredQuestions.filter((q) => favorites.includes(q.id));
+    questions = filteredQuestions.filter((q) =>
+      favorites.includes(getQuestionKey(q)),
+    );
   } else {
     questions = filteredQuestions;
   }
@@ -252,8 +260,7 @@ function selectAnswer(button, selectedIndex) {
     // Če smo v načinu "Ponavljaj napake",
     // odstrani vprašanje iz napak
     if (gameMode === "mistakes") {
-      wrongQuestions = wrongQuestions.filter((id) => id !== q.id);
-
+      wrongQuestions = wrongQuestions.filter((id) => id !== getQuestionKey(q));
       localStorage.setItem("wrongQuestions", JSON.stringify(wrongQuestions));
     }
   }
@@ -267,9 +274,10 @@ function selectAnswer(button, selectedIndex) {
     feedback.textContent = "❌ Napačen odgovor.";
 
     // Shrani med napake
-    if (!wrongQuestions.includes(q.id)) {
-      wrongQuestions.push(q.id);
+    const key = getQuestionKey(q);
 
+    if (!wrongQuestions.includes(key)) {
+      wrongQuestions.push(key);
       localStorage.setItem("wrongQuestions", JSON.stringify(wrongQuestions));
     }
 
@@ -460,14 +468,14 @@ if (favoriteBtn) {
   favoriteBtn.addEventListener("click", () => {
     const q = questions[currentQuestion];
 
-    if (!favorites.includes(q.id)) {
-      favorites.push(q.id);
+    const key = getQuestionKey(q);
+
+    if (!favorites.includes(key)) {
+      favorites.push(key);
     } else {
-      favorites = favorites.filter((id) => id !== q.id);
+      favorites = favorites.filter((id) => id !== key);
     }
-
     localStorage.setItem("favorites", JSON.stringify(favorites));
-
     updateFavoriteButton();
   });
 }
@@ -479,7 +487,7 @@ function updateFavoriteButton() {
 
   if (!q) return;
 
-  if (favorites.includes(q.id)) {
+  if (favorites.includes(getQuestionKey(q))) {
     favoriteBtn.textContent = "⭐ Označeno";
   } else {
     favoriteBtn.textContent = "☆ Označi vprašanje";
@@ -515,3 +523,50 @@ quitBtn.addEventListener("click", () => {
 
   startScreen.classList.remove("hidden");
 });
+
+const categoriesModal = document.getElementById("categoriesModal");
+
+document.getElementById("openCategoriesBtn").onclick = () => {
+  categoriesModal.classList.add("active");
+};
+
+document.getElementById("closeCategoriesBtn").onclick = () => {
+  categoriesModal.classList.remove("active");
+};
+
+document.getElementById("saveCategoriesBtn").onclick = () => {
+  categoriesModal.classList.remove("active");
+
+  updateSelectedCount();
+};
+
+document.getElementById("selectAllBtn").onclick = () => {
+  document
+    .querySelectorAll(".categories-grid input")
+    .forEach((cb) => (cb.checked = true));
+
+  updateSelectedCount();
+};
+
+document.getElementById("clearAllBtn").onclick = () => {
+  document
+    .querySelectorAll(".categories-grid input")
+    .forEach((cb) => (cb.checked = false));
+
+  updateSelectedCount();
+};
+
+function updateSelectedCount() {
+  const checked = document.querySelectorAll(
+    ".categories-grid input:checked",
+  ).length;
+
+  const total = document.querySelectorAll(".categories-grid input").length;
+
+  document.getElementById("selectedCount").textContent =
+    checked === total
+      ? `Vsa poglavja (${total})`
+      : `${checked} od ${total} poglavij`;
+}
+
+updateSelectedCount();

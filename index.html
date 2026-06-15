@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sociologija Kviz</title>
+    <title>IV Study Hub</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
 
     <!-- Google Font -->
     <link
@@ -25,160 +26,51 @@
     <div class="background"></div>
 
     <div class="container">
-      <!-- Začetni zaslon -->
-      <div class="start-screen" id="startScreen">
+      <div class="start-screen">
         <div class="logo">
           <i class="fa-solid fa-graduation-cap"></i>
         </div>
 
-        <h1>Sociologija Kviz</h1>
+        <h1>IV Study Hub</h1>
 
         <p class="subtitle">
-          Utrdi svoje znanje sociologije s pomočjo interaktivnega kviza.
+          Interaktivno ucenje za izpite Informacijske Varnosti.
         </p>
 
         <div class="game-modes">
-          <button class="mode-btn" id="mistakesBtn">
-            <i class="fa-solid fa-rotate-left"></i>
-            Ponavljaj napake
-            <span>Vprašanja, kjer si se zmotil</span>
-          </button>
+          <a href="sociologija.html" class="mode-btn subject-btn">
+            <i class="fa-solid fa-users"></i>
+            Sociologija
+            <span> Interaktivni kviz za pripravo na izpit </span>
+          </a>
 
-          <button class="mode-btn" id="favoritesModeBtn">
-            <i class="fa-solid fa-star"></i>
-            Označena vprašanja
-            <span>Ponovi težka vprašanja</span>
-          </button>
+          <a href="psihologija.html" class="mode-btn subject-btn">
+            <i class="fa-solid fa-brain"></i>
 
-          <button class="mode-btn" id="studyModeBtn">
-            <i class="fa-solid fa-book"></i>
-            Učni način
-            <span>Razlaga po vsakem vprašanju</span>
-          </button>
+            Psihologija
 
-          <button class="mode-btn" id="examModeBtn">
-            <i class="fa-solid fa-file-pen"></i>
-            Izpitni način
-            <span>30 naključnih vprašanj</span>
-          </button>
-        </div>
+            <span> Ucenje po poglavjih in izpitni nacin </span>
+          </a>
 
-        <div class="category-selection">
-          <h2>Izberi kategorije</h2>
+          <div class="mode-btn subject-btn disabled">
+            <i class="fa-solid fa-scale-balanced"></i>
 
-          <div class="categories">
-            <label class="category">
-              <input type="checkbox" value="osnove" checked />
-              <span>Osnove</span>
-            </label>
+            Kriminologija
 
-            <label class="category">
-              <input type="checkbox" value="socializacija" checked />
-              <span>Socializacija</span>
-            </label>
+            <span> Prihaja kmalu </span>
+          </div>
 
-            <label class="category">
-              <input type="checkbox" value="teorije" checked />
-              <span>Teorije</span>
-            </label>
+          <div class="mode-btn subject-btn disabled">
+            <i class="fa-solid fa-chart-line"></i>
 
-            <label class="category">
-              <input type="checkbox" value="mediji" checked />
-              <span>Mediji</span>
-            </label>
+            Statistika
 
-            <label class="category">
-              <input type="checkbox" value="globalizacija" checked />
-              <span>Globalizacija</span>
-            </label>
-
-            <label class="category">
-              <input type="checkbox" value="totalne" checked />
-              <span>Totalne institucije</span>
-            </label>
-
-            <label class="category">
-              <input type="checkbox" value="birokracija" checked />
-              <span>Birokracija</span>
-            </label>
+            <span> Prihaja kmalu </span>
           </div>
         </div>
 
-        <button class="start-btn" id="startBtn">Začni kviz</button>
-      </div>
-
-      <!-- Glavni kviz -->
-      <div class="quiz-screen hidden" id="quizScreen">
-        <div class="quiz-header">
-          <div class="quiz-info">
-            <div class="info-box">
-              <span>Vprašanje</span>
-              <strong id="questionCounter"> 1 / 30 </strong>
-            </div>
-
-            <div class="info-box">
-              <span>Točke</span>
-              <strong id="score"> 0 </strong>
-            </div>
-
-            <div class="info-box">
-              <span>Kategorija</span>
-              <strong id="categoryName"> Osnove </strong>
-            </div>
-          </div>
-
-          <div class="progress-container">
-            <div class="progress-bar">
-              <div class="progress-fill" id="progressFill"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="quiz-card">
-          <h2 id="question">Tukaj bo vprašanje...</h2>
-
-          <div class="options-container" id="optionsContainer">
-            <!-- JS vstavi odgovore -->
-          </div>
-
-          <div class="feedback" id="feedback"></div>
-
-          <div class="explanation hidden" id="explanation">
-            <!-- Razlaga -->
-          </div>
-          <div class="quiz-actions">
-            <button id="quitBtn">⬅ Končaj kviz</button>
-            <button id="favoriteBtn">☆ Označi vprašanje</button>
-          </div>
-          <button class="next-btn hidden" id="nextBtn">
-            Naslednje vprašanje
-          </button>
-        </div>
-      </div>
-
-      <!-- Končni rezultat -->
-      <div class="result-screen hidden" id="resultScreen">
-        <div class="result-card">
-          <div class="result-icon">
-            <i class="fa-solid fa-trophy"></i>
-          </div>
-
-          <h1>Konec kviza!</h1>
-
-          <p class="final-score" id="finalScore">0 / 30</p>
-
-          <p class="grade" id="grade">Odlično!</p>
-
-          <div class="result-buttons">
-            <button id="restartBtn">Igraj znova</button>
-
-            <button id="homeBtn">Domov</button>
-          </div>
-        </div>
+        <div class="best-score">IV Study Hub v1.0</div>
       </div>
     </div>
-    <!-- JavaScript -->
-    <script src="socquestions.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>

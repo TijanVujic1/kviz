@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="sl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IV Study Hub | Psihologija</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Ikone -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="background"></div>
+
+    <div class="container">
+      <a href="index.html" class="back-home">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span>Začetna stran</span>
+      </a>
+      <!-- Začetni zaslon -->
+      <div class="start-screen" id="startScreen">
+        <div class="logo">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+
+        <h1>Psihologija</h1>
+
+        <p class="subtitle">
+          Utrdi svoje znanje psihologije s pomočjo interaktivnega kviza.
+        </p>
+
+        <div class="game-modes">
+          <button class="mode-btn" id="mistakesBtn">
+            <i class="fa-solid fa-rotate-left"></i>
+            Ponavljaj napake
+            <span>Vprašanja, kjer si se zmotil</span>
+          </button>
+
+          <button class="mode-btn" id="favoritesModeBtn">
+            <i class="fa-solid fa-star"></i>
+            Označena vprašanja
+            <span>Ponovi težka vprašanja</span>
+          </button>
+
+          <button class="mode-btn" id="studyModeBtn">
+            <i class="fa-solid fa-book"></i>
+            Učni način
+            <span>Razlaga po vsakem vprašanju</span>
+          </button>
+
+          <button class="mode-btn" id="examModeBtn">
+            <i class="fa-solid fa-file-pen"></i>
+            Izpitni način
+            <span>30 naključnih vprašanj</span>
+          </button>
+        </div>
+
+        <div class="category-selector">
+          <div class="selected-categories">
+            <h3>Izbrana poglavja</h3>
+            <p id="selectedCount">Vsa poglavja (14)</p>
+          </div>
+
+          <button class="customize-btn" id="openCategoriesBtn">
+            <i class="fa-solid fa-sliders"></i>
+            <span>Prilagodi poglavja</span>
+          </button>
+        </div>
+
+        <button class="start-btn" id="startBtn">Začni kviz</button>
+      </div>
+
+      <!-- Glavni kviz -->
+      <div class="quiz-screen hidden" id="quizScreen">
+        <div class="quiz-header">
+          <div class="quiz-info">
+            <div class="info-box">
+              <span>Vprašanje</span>
+              <strong id="questionCounter"> 1 / 30 </strong>
+            </div>
+
+            <div class="info-box">
+              <span>Točke</span>
+              <strong id="score"> 0 </strong>
+            </div>
+
+            <div class="info-box">
+              <span>Kategorija</span>
+              <strong id="categoryName"> Osnove </strong>
+            </div>
+          </div>
+
+          <div class="progress-container">
+            <div class="progress-bar">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <h2 id="question">Tukaj bo vprašanje...</h2>
+
+          <div class="options-container" id="optionsContainer">
+            <!-- JS vstavi odgovore -->
+          </div>
+
+          <div class="feedback" id="feedback"></div>
+
+          <div class="explanation hidden" id="explanation">
+            <!-- Razlaga -->
+          </div>
+          <div class="quiz-actions">
+            <button id="quitBtn">⬅ Končaj kviz</button>
+            <button id="favoriteBtn">☆ Označi vprašanje</button>
+          </div>
+          <button class="next-btn hidden" id="nextBtn">
+            Naslednje vprašanje
+          </button>
+        </div>
+      </div>
+
+      <!-- Končni rezultat -->
+      <div class="result-screen hidden" id="resultScreen">
+        <div class="result-card">
+          <div class="result-icon">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+
+          <h1>Konec kviza!</h1>
+
+          <p class="final-score" id="finalScore">0 / 30</p>
+
+          <p class="grade" id="grade">Odlično!</p>
+
+          <div class="result-buttons">
+            <button id="restartBtn">Igraj znova</button>
+
+            <button id="homeBtn">Domov</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------Modal------>
+    <div class="modal-overlay" id="categoriesModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Izberi poglavja</h2>
+
+          <button class="close-modal" id="closeCategoriesBtn">✕</button>
+        </div>
+
+        <div class="categories-grid">
+          <label>
+            <input type="checkbox" value="uvod" checked />
+            <span>Uvod v psihologijo</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="zivcni" checked />
+            <span>Živčni sistem</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="zaznavanje" checked />
+            <span>Zaznavanje</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="spanje" checked />
+            <span>Spanje in zavest</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="spomin" checked />
+            <span>Pozornost in spomin</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="custva" checked />
+            <span>Čustva</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="ucenje" checked />
+            <span>Učenje</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="laganje" checked />
+            <span>Laganje in poligraf</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="misljenje" checked />
+            <span>Mišljenje</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="socialna" checked />
+            <span>Socialna psihologija</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="motivacija" checked />
+            <span>Motivacija</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="psihopatologija" checked />
+            <span>Psihopatologija</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="osebnost" checked />
+            <span>Osebnost</span>
+          </label>
+
+          <label>
+            <input type="checkbox" value="inteligentnost" checked />
+            <span>Inteligentnost</span>
+          </label>
+        </div>
+
+        <div class="modal-actions">
+          <button id="selectAllBtn" class="secondary-btn">Izberi vse</button>
+
+          <button id="clearAllBtn" class="secondary-btn">Počisti</button>
+
+          <button id="saveCategoriesBtn" class="save-btn">Shrani</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="psihologija.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

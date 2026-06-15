@@ -2394,3 +2394,7 @@ const QUESTIONS = [
     explanation: "Države so začele prehajati v kapitalistični sistem.",
   },
 ];
+
+QUESTIONS.forEach((q) => {
+  q.subject = "soc";
+});
