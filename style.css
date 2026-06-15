@@ -759,7 +759,9 @@ body {
 
   gap: 12px;
 
-  margin-bottom: 30px;
+  max-width: 760px;
+
+  margin: 0 auto 30px;
 }
 
 .dashboard-card {
@@ -825,4 +827,42 @@ body {
 
 .fa-bullseye {
   color: #22c55e;
+}
+
+/* ===== DASHBOARD MOBILE FIX ===== */
+
+@media (max-width: 768px) {
+  .dashboard {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+
+    width: 100%;
+  }
+
+  .dashboard-card {
+    padding: 14px 12px;
+
+    min-width: 0;
+  }
+
+  .dashboard-top {
+    gap: 6px;
+  }
+
+  .dashboard-top i {
+    font-size: 0.9rem;
+  }
+
+  .dashboard-top span {
+    font-size: 0.75rem;
+
+    line-height: 1.2;
+  }
+
+  .dashboard-card strong {
+    font-size: 1.6rem;
+  }
 }
