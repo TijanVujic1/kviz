@@ -3218,6 +3218,5190 @@ const QUESTIONS = [
     explanation:
       "Kakovosten psihološki test mora biti zanesljiv, veljaven, standardiziran in normiran.",
   },
+
+  {
+    id: 211,
+    category: "uvod",
+    difficulty: "hard",
+    question: "Kaj najbolj razlikuje psihologijo od psevdoznanosti?",
+    options: [
+      "Psihologija preučuje le vedenje.",
+      "Psihologija uporablja znanstvene metode in preverljive dokaze.",
+      "Psihologija temelji na intuiciji.",
+      "Psihologija ne uporablja raziskav.",
+    ],
+    answer: 1,
+    explanation:
+      "Psihologija uporablja znanstvene metode, psevdoznanosti pa nimajo preverljivih dokazov.",
+  },
+
+  {
+    id: 212,
+    category: "uvod",
+    difficulty: "medium",
+    question: "Zakaj Wilhelma Wundta imenujemo očeta moderne psihologije?",
+    options: [
+      "Ker je razvil psihoanalizo.",
+      "Ker je ustanovil prvi psihološki laboratorij.",
+      "Ker je ustvaril prvi IQ test.",
+      "Ker je raziskoval učenje.",
+    ],
+    answer: 1,
+    explanation:
+      "Leta 1879 je ustanovil prvi psihološki laboratorij v Leipzigu.",
+  },
+
+  {
+    id: 213,
+    category: "uvod",
+    difficulty: "hard",
+    question: "Katero leto štejemo za začetek znanstvene psihologije?",
+    options: ["1859", "1879", "1899", "1905"],
+    answer: 1,
+    explanation:
+      "Leta 1879 je Wilhelm Wundt ustanovil prvi psihološki laboratorij.",
+  },
+
+  {
+    id: 214,
+    category: "uvod",
+    difficulty: "hard",
+    question: "Kaj pomeni trditev, da korelacija ne pomeni vzročnosti?",
+    options: [
+      "Da pojava nista povezana.",
+      "Da en pojav vedno povzroča drugega.",
+      "Da povezanost med pojavoma še ne dokazuje vzročno-posledične zveze.",
+      "Da korelacijska metoda ni uporabna.",
+    ],
+    answer: 2,
+    explanation:
+      "Tudi če sta pojava povezana, še ne pomeni, da eden povzroča drugega.",
+  },
+
+  {
+    id: 215,
+    category: "uvod",
+    difficulty: "hard",
+    question: "Kaj je pokazal eksperiment Sam Stone?",
+    options: [
+      "Da otroci nikoli ne lažejo.",
+      "Da sugestivna vprašanja lahko ustvarijo lažne spomine.",
+      "Da imajo odrasli boljši spomin kot otroci.",
+      "Da priče vedno pravilno pričajo.",
+    ],
+    answer: 1,
+    explanation:
+      "Sugestivna vprašanja lahko popačijo spomin in povzročijo lažne izjave.",
+  },
+
+  {
+    id: 216,
+    category: "uvod",
+    difficulty: "medium",
+    question:
+      "Katero področje psihologije proučuje vpliv skupin in družbe na posameznika?",
+    options: [
+      "Razvojna psihologija.",
+      "Klinična psihologija.",
+      "Socialna psihologija.",
+      "Psihologija dela.",
+    ],
+    answer: 2,
+    explanation:
+      "Socialna psihologija proučuje vpliv drugih ljudi na naše vedenje.",
+  },
+
+  {
+    id: 217,
+    category: "uvod",
+    difficulty: "medium",
+    question:
+      "Katero področje psihologije se ukvarja z učenjem in poučevanjem?",
+    options: [
+      "Pedagoška psihologija.",
+      "Kriminološka psihologija.",
+      "Kognitivna psihologija.",
+      "Klinična psihologija.",
+    ],
+    answer: 0,
+    explanation: "Pedagoška psihologija proučuje procese učenja in poučevanja.",
+  },
+
+  {
+    id: 218,
+    category: "uvod",
+    difficulty: "medium",
+    question: "Kaj povezuje forenzična psihologija?",
+    options: [
+      "Psihologijo in biologijo.",
+      "Psihologijo, pravo in kriminalistiko.",
+      "Psihologijo in medicino.",
+      "Psihologijo in ekonomijo.",
+    ],
+    answer: 1,
+    explanation:
+      "Forenzična psihologija pomaga pri reševanju pravnih vprašanj.",
+  },
+
+  {
+    id: 219,
+    category: "uvod",
+    difficulty: "hard",
+    question: "Kaj je namen kognitivnega intervjuja?",
+    options: [
+      "Povečanje stresa priče.",
+      "Izboljšanje priklica spomina pri pričah.",
+      "Preverjanje inteligentnosti.",
+      "Merjenje osebnosti.",
+    ],
+    answer: 1,
+    explanation:
+      "Kognitivni intervju pomaga pričam priklicati čim več točnih informacij.",
+  },
+
+  {
+    id: 220,
+    category: "uvod",
+    difficulty: "medium",
+    question: "Kaj pomeni informirano soglasje?",
+    options: [
+      "Da raziskovalec odloča namesto udeleženca.",
+      "Da udeleženec pozna namen, potek in tveganja raziskave.",
+      "Da sodelovanje ni prostovoljno.",
+      "Da rezultati niso anonimni.",
+    ],
+    answer: 1,
+    explanation: "Udeleženec mora biti pred sodelovanjem ustrezno obveščen.",
+  },
+
+  {
+    id: 221,
+    category: "uvod",
+    difficulty: "hard",
+    question: "Kdaj je uporaba zavajanja v raziskavi etično sprejemljiva?",
+    options: [
+      "Vedno.",
+      "Nikoli.",
+      "Če je nujna in ni druge možnosti izvedbe raziskave.",
+      "Samo pri otrocih.",
+    ],
+    answer: 2,
+    explanation: "Po raziskavi mora raziskovalec pojasniti resnični namen.",
+  },
+
+  {
+    id: 222,
+    category: "zaznavanje",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje čutenje?",
+    options: [
+      "Interpretacijo dražljajev.",
+      "Sprejemanje dražljajev iz okolja.",
+      "Shranjevanje informacij.",
+      "Usmerjanje pozornosti.",
+    ],
+    answer: 1,
+    explanation: "Čutenje predstavlja osnovni sprejem dražljajev.",
+  },
+
+  {
+    id: 223,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question: "Kaj je absolutni prag?",
+    options: [
+      "Največja jakost dražljaja.",
+      "Najmanjša razlika med dražljajema.",
+      "Najmanjša jakost dražljaja, ki jo še zaznamo.",
+      "Povprečna jakost dražljaja.",
+    ],
+    answer: 2,
+    explanation: "Absolutni prag predstavlja spodnjo mejo zaznavanja.",
+  },
+
+  {
+    id: 224,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question: "Kaj pomeni diferencialni prag?",
+    options: [
+      "Največjo razliko med dražljaji.",
+      "Najmanjšo razliko med dražljajema, ki jo še zaznamo.",
+      "Najnižjo zaznavno frekvenco.",
+      "Izgubo občutljivosti.",
+    ],
+    answer: 1,
+    explanation: "Gre za najmanjšo opazno razliko med dražljajema.",
+  },
+
+  {
+    id: 225,
+    category: "zaznavanje",
+    difficulty: "medium",
+    question: "Kaj pomeni čutno prilagajanje?",
+    options: [
+      "Povečanje občutljivosti.",
+      "Zmanjšanje občutljivosti ob dolgotrajnem dražljaju.",
+      "Izgubo čutila.",
+      "Hitrejše zaznavanje.",
+    ],
+    answer: 1,
+    explanation: "Po določenem času isti dražljaj zaznavamo manj intenzivno.",
+  },
+
+  {
+    id: 226,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question: "Kaj pravi modularna hipoteza prepoznavanja obrazov?",
+    options: [
+      "Da obraze prepoznavamo zaradi učenja.",
+      "Da imajo možgani poseben sistem za prepoznavanje obrazov.",
+      "Da so obrazi nepomembni.",
+      "Da dojenčki ne prepoznavajo obrazov.",
+    ],
+    answer: 1,
+    explanation:
+      "Po modularni hipotezi so določeni deli možganov specializirani za obraze.",
+  },
+
+  {
+    id: 227,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question: "Kaj pomeni verbalno zasenčenje?",
+    options: [
+      "Hitrejše prepoznavanje obrazov.",
+      "Opisovanje obraza izboljša prepoznavo.",
+      "Opisovanje obraza lahko poslabša kasnejšo prepoznavo.",
+      "Pozabljanje imen.",
+    ],
+    answer: 2,
+    explanation:
+      "Podrobno opisovanje neznanca lahko zmanjša uspešnost prepoznave.",
+  },
+
+  {
+    id: 228,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question:
+      "Zakaj pri identifikaciji osumljencev posebne značilnosti prikrijejo?",
+    options: [
+      "Da je postopek hitrejši.",
+      "Da policija ne vpliva na pričo.",
+      "Da osumljenec ni prepoznaven.",
+      "Zaradi varovanja zasebnosti.",
+    ],
+    answer: 1,
+    explanation: "Tako zmanjšajo možnost napačne identifikacije.",
+  },
+
+  {
+    id: 229,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question: "Kaj je fi fenomen?",
+    options: [
+      "Navidezno gibanje zaradi hitrega menjavanja slik.",
+      "Premikanje svetlobe v temi.",
+      "Sled slike po opazovanju.",
+      "Geometrična iluzija.",
+    ],
+    answer: 0,
+    explanation: "Na fi fenomenu temeljijo filmi in animacije.",
+  },
+
+  {
+    id: 230,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question: "Kaj je avtokinetični učinek?",
+    options: [
+      "Sled slike po opazovanju.",
+      "Navidezno premikanje nepremične svetlobe v temi.",
+      "Premikanje predmetov zaradi paralakse.",
+      "Dvoumna iluzija.",
+    ],
+    answer: 1,
+    explanation: "Nepremična svetloba se v temi zdi premikajoča.",
+  },
+
+  {
+    id: 231,
+    category: "zaznavanje",
+    difficulty: "hard",
+    question: "Kaj sta ugotovila Allport in Postman glede pričanja?",
+    options: [
+      "Priče si dogodke popolnoma zapomnijo.",
+      "Priče pogosto dopolnjujejo informacije in delajo napake.",
+      "Čustva ne vplivajo na pričanje.",
+      "Stereotipi ne vplivajo na spomin.",
+    ],
+    answer: 1,
+    explanation: "Na pričanje vplivajo stereotipi, pričakovanja in čustva.",
+  },
+
+  {
+    id: 232,
+    category: "spomin",
+    difficulty: "hard",
+    question:
+      "Kaj je pokazal eksperiment Simonsa in Chabrisa z 'nevidno gorilo'?",
+    options: [
+      "Da lahko hkrati obdelujemo vse dražljaje iz okolja.",
+      "Da je pozornost neomejena.",
+      "Da zaradi osredotočenosti pogosto spregledamo očitne dražljaje.",
+      "Da kratkoročni spomin nima omejitev.",
+    ],
+    answer: 2,
+    explanation:
+      "Eksperiment je pokazal omejenost pozornosti in pojav nepozornostne slepote.",
+  },
+
+  {
+    id: 233,
+    category: "spomin",
+    difficulty: "medium",
+    question: "Kaj pomeni zadržana pozornost?",
+    options: [
+      "Sposobnost osredotočanja na več nalog hkrati.",
+      "Sposobnost dolgotrajnega ohranjanja pozornosti.",
+      "Izbiranje pomembnih dražljajev.",
+      "Preusmerjanje pozornosti med nalogami.",
+    ],
+    answer: 1,
+    explanation:
+      "Zadržana pozornost omogoča ohranjanje pozornosti skozi daljše časovno obdobje.",
+  },
+
+  {
+    id: 234,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj opisuje Millerjevo pravilo 7 ± 2?",
+    options: [
+      "Povprečno trajanje senzornega spomina.",
+      "Kapaciteto kratkoročnega spomina.",
+      "Število ponovitev za utrjevanje.",
+      "Dolžino dolgoročnega spomina.",
+    ],
+    answer: 1,
+    explanation:
+      "Kratkoročni spomin lahko hkrati zadrži približno 5 do 9 elementov.",
+  },
+
+  {
+    id: 235,
+    category: "spomin",
+    difficulty: "medium",
+    question: "Kaj pomeni utrjevanje v procesu spomina?",
+    options: [
+      "Izgubo nepotrebnih informacij.",
+      "Prenos informacij iz kratkoročnega v dolgoročni spomin.",
+      "Povezovanje pojmov v skupine.",
+      "Priklic že shranjenih informacij.",
+    ],
+    answer: 1,
+    explanation: "Utrjevanje omogoča dolgoročno ohranjanje informacij.",
+  },
+
+  {
+    id: 236,
+    category: "spomin",
+    difficulty: "hard",
+    question:
+      "Kako so informacije običajno organizirane v dolgoročnem spominu?",
+    options: [
+      "Naključno in brez povezav.",
+      "Po kronološkem zaporedju.",
+      "V mreže medsebojno povezanih pojmov.",
+      "Izključno po pomembnosti.",
+    ],
+    answer: 2,
+    explanation:
+      "Aktivacija enega pojma lahko sproži aktivacijo povezanih pojmov.",
+  },
+
+  {
+    id: 237,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj pomeni učinek konteksta pri priklicu?",
+    options: [
+      "Da se bolje spomnimo informacij v okolju, kjer smo se jih učili.",
+      "Da se vedno bolje učimo doma.",
+      "Da je priklic odvisen samo od inteligentnosti.",
+      "Da kontekst nima vpliva na spomin.",
+    ],
+    answer: 0,
+    explanation: "Priklic je pogosto uspešnejši v podobnem okolju kot učenje.",
+  },
+
+  {
+    id: 238,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj pomeni skladnost razpoloženja pri spominu?",
+    options: [
+      "Da si lažje zapomnimo nove informacije.",
+      "Da lažje prikličemo spomine, ki ustrezajo našemu trenutnemu razpoloženju.",
+      "Da čustva nimajo vpliva na spomin.",
+      "Da dobro razpoloženje vedno izboljša spomin.",
+    ],
+    answer: 1,
+    explanation: "Razpoloženje vpliva na to, katere spomine lažje prikličemo.",
+  },
+
+  {
+    id: 239,
+    category: "spomin",
+    difficulty: "medium",
+    question: "Kaj je spomin bliskavice?",
+    options: [
+      "Spomin na vsakdanje dogodke.",
+      "Zelo živ in podroben spomin na pomemben dogodek.",
+      "Spomin na sanje.",
+      "Spomin na proceduralne spretnosti.",
+    ],
+    answer: 1,
+    explanation: "Gre za zelo podrobne spomine na čustveno pomembne dogodke.",
+  },
+
+  {
+    id: 240,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj je ugotovil Hermann Ebbinghaus?",
+    options: [
+      "Da pozabljanje poteka enakomerno.",
+      "Da največ pozabimo kmalu po učenju.",
+      "Da spomina ni mogoče izboljšati.",
+      "Da ponavljanje nima vpliva na spomin.",
+    ],
+    answer: 1,
+    explanation: "Njegova krivulja pozabljanja kaže hitro začetno pozabljanje.",
+  },
+
+  {
+    id: 241,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj pomeni supresija?",
+    options: [
+      "Nezavedno potiskanje neprijetnih spominov.",
+      "Zavestno izogibanje določenim spominom.",
+      "Izgubo vseh spominov po poškodbi.",
+      "Težave pri priklicu zaradi interferenc.",
+    ],
+    answer: 1,
+    explanation: "Supresija pomeni zavestno potiskanje spominov.",
+  },
+
+  {
+    id: 242,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj pomeni represija?",
+    options: [
+      "Zavestno potiskanje spominov.",
+      "Nezavedno potiskanje neprijetnih spominov.",
+      "Izgubo kratkoročnega spomina.",
+      "Izgubo proceduralnega spomina.",
+    ],
+    answer: 1,
+    explanation: "Represija poteka nezavedno.",
+  },
+
+  {
+    id: 243,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj je značilno za retrogradno amnezijo?",
+    options: [
+      "Nezmožnost tvorjenja novih spominov.",
+      "Izguba spominov na dogodke pred poškodbo.",
+      "Izguba proceduralnih spretnosti.",
+      "Nezmožnost priklica semantičnih informacij.",
+    ],
+    answer: 1,
+    explanation:
+      "Retrogradna amnezija prizadene spomine iz obdobja pred poškodbo.",
+  },
+
+  {
+    id: 244,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj je značilno za anterogradno amnezijo?",
+    options: [
+      "Izguba spominov pred poškodbo.",
+      "Težave pri zaznavanju dražljajev.",
+      "Nezmožnost ustvarjanja novih spominov po poškodbi.",
+      "Izguba proceduralnih spretnosti.",
+    ],
+    answer: 2,
+    explanation:
+      "Posameznik po poškodbi ne more učinkovito tvoriti novih spominov.",
+  },
+
+  {
+    id: 245,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj pomeni učinek napačnih informacij?",
+    options: [
+      "Da se spomin izboljša z dodatnimi informacijami.",
+      "Da lahko kasnejše informacije spremenijo prvotni spomin.",
+      "Da napačnih spominov ni mogoče ustvariti.",
+      "Da se nanaša samo na otroke.",
+    ],
+    answer: 1,
+    explanation:
+      "Kasneje prejete informacije lahko popačijo spomin na dogodek.",
+  },
+
+  {
+    id: 246,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Kaj pomeni zamenjava vira informacij?",
+    options: [
+      "Pozabimo vsebino informacije.",
+      "Informacijo si zapomnimo, ne pa njenega izvora.",
+      "Zamenjamo kratkoročni in dolgoročni spomin.",
+      "Prikličemo napačno čustvo.",
+    ],
+    answer: 1,
+    explanation: "Gre za napako pri določanju izvora informacije.",
+  },
+
+  {
+    id: 247,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Katera tehnika NI del kognitivnega intervjuja?",
+    options: [
+      "Miselna obnovitev okoliščin.",
+      "Sprememba perspektive.",
+      "Sugestivna vprašanja.",
+      "Drugo časovno zaporedje.",
+    ],
+    answer: 2,
+    explanation: "Sugestivna vprašanja zmanjšujejo zanesljivost pričanja.",
+  },
+
+  {
+    id: 248,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Katera dejavnika med drugim vplivata na kakovost pričanja?",
+    options: [
+      "Barva oči in telesna višina.",
+      "Starost in sugestibilnost.",
+      "Krvna skupina in telesna masa.",
+      "Poklic in hobiji.",
+    ],
+    answer: 1,
+    explanation:
+      "Starost, spol, sugestibilnost in življenjska zgodovina vplivajo na pričanje.",
+  },
+
+  {
+    id: 249,
+    category: "spomin",
+    difficulty: "hard",
+    question: "Na katere dogodke pogosto usmerimo več pozornosti?",
+    options: [
+      "Na popolnoma običajne dogodke.",
+      "Na nevarne ali nenavadne dogodke.",
+      "Na vse dogodke enako.",
+      "Le na dogodke brez čustvene vrednosti.",
+    ],
+    answer: 1,
+    explanation:
+      "Pozornost pogosto pritegnejo nevarni, nenavadni ali osebno pomembni dogodki.",
+  },
+
+  {
+    id: 250,
+    category: "ucenje",
+    difficulty: "medium",
+    question: "Kaj pomeni pogojevanje?",
+    options: [
+      "Učenje z opazovanjem drugih ljudi.",
+      "Učenje povezave med dražljajem in reakcijo.",
+      "Reševanje problemov z vpogledom.",
+      "Pridobivanje znanja brez izkušenj.",
+    ],
+    answer: 1,
+    explanation:
+      "Pogojevanje pomeni učenje povezave med dražljajem in odzivom.",
+  },
+
+  {
+    id: 251,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Kateri dejavnik poveča uspešnost klasičnega pogojevanja?",
+    options: [
+      "Čim manj ponovitev.",
+      "Čim daljši časovni razmik med dražljaji.",
+      "Večkratno povezovanje dražljajev.",
+      "Naključno pojavljanje dražljajev.",
+    ],
+    answer: 2,
+    explanation:
+      "Pogostost povezovanja okrepi povezavo med dražljajem in odzivom.",
+  },
+
+  {
+    id: 252,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Zakaj je časovna bližina pomembna pri klasičnem pogojevanju?",
+    options: [
+      "Ker se dražljaja lažje povežeta, če si sledita hitro.",
+      "Ker zmanjšuje generalizacijo.",
+      "Ker preprečuje diskriminacijo.",
+      "Ker nadomesti ponavljanje.",
+    ],
+    answer: 0,
+    explanation: "Dražljaj in odziv morata časovno tesno slediti drug drugemu.",
+  },
+
+  {
+    id: 253,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Kaj sta pokazala Watson in Rayner s poskusom 'Little Albert'?",
+    options: [
+      "Da se agresivnost naučimo z opazovanjem.",
+      "Da se lahko strah naučimo s klasičnim pogojevanjem.",
+      "Da nagrada poveča vedenje.",
+      "Da živali uporabljajo kognitivne zemljevide.",
+    ],
+    answer: 1,
+    explanation:
+      "Strah se lahko razvije s povezovanjem nevtralnega dražljaja z neprijetno izkušnjo.",
+  },
+
+  {
+    id: 254,
+    category: "ucenje",
+    difficulty: "hard",
+    question:
+      "Pred katerimi predmeti je Little Albert po pogojevanju pokazal strah?",
+    options: [
+      "Le pred belo podgano.",
+      "Pred vsemi živalmi.",
+      "Tudi pred zajci, krznom in drugimi belimi predmeti.",
+      "Le pred glasnimi zvoki.",
+    ],
+    answer: 2,
+    explanation:
+      "Strah se je razširil na podobne dražljaje zaradi generalizacije.",
+  },
+
+  {
+    id: 255,
+    category: "ucenje",
+    difficulty: "medium",
+    question: "Kdo je razvil teorijo poskusa in napake?",
+    options: [
+      "Ivan Pavlov.",
+      "Edward Thorndike.",
+      "Albert Bandura.",
+      "Edward Tolman.",
+    ],
+    answer: 1,
+    explanation: "Thorndike je razvil teorijo učenja s poskusi in napakami.",
+  },
+
+  {
+    id: 256,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Kaj pravi Thorndikeov zakon učinka?",
+    options: [
+      "Vedenje se utrjuje ne glede na posledice.",
+      "Prijetne posledice povečajo verjetnost vedenja.",
+      "Kazen vedno odpravi vedenje.",
+      "Učenje poteka brez vpliva izkušenj.",
+    ],
+    answer: 1,
+    explanation: "Vedenja s prijetnimi posledicami se pogosteje ponavljajo.",
+  },
+
+  {
+    id: 257,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Kdaj je kaznovanje najbolj učinkovito?",
+    options: [
+      "Če je redko in nepredvidljivo.",
+      "Če sledi vedenju hitro in dosledno.",
+      "Če se uporablja samo občasno.",
+      "Če je čim strožje.",
+    ],
+    answer: 1,
+    explanation: "Kazen mora slediti vedenju takoj in dosledno.",
+  },
+
+  {
+    id: 258,
+    category: "ucenje",
+    difficulty: "medium",
+    question: "Kdo je uvedel pojem kognitivnega zemljevida?",
+    options: [
+      "Edward Tolman.",
+      "B. F. Skinner.",
+      "Ivan Pavlov.",
+      "John Watson.",
+    ],
+    answer: 0,
+    explanation:
+      "Tolman je pokazal, da si organizmi ustvarijo miselne predstave prostora.",
+  },
+
+  {
+    id: 259,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Kaj je pokazal Tolman s poskusi na podganah?",
+    options: [
+      "Da živali delujejo le po načelu nagrad.",
+      "Da si ustvarijo kognitivne zemljevide okolja.",
+      "Da uporabljajo klasično pogojevanje.",
+      "Da posnemajo druge živali.",
+    ],
+    answer: 1,
+    explanation: "Podgane so znale poiskati nove poti do cilja.",
+  },
+
+  {
+    id: 260,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Koga ljudje pogosteje posnemamo po Banduri?",
+    options: [
+      "Izključno vrstnike.",
+      "Le družinske člane.",
+      "Ljudi, ki so nagrajeni ali imajo višji status.",
+      "Samo osebe iste starosti.",
+    ],
+    answer: 2,
+    explanation:
+      "Večja verjetnost posnemanja je pri nagrajenih in uglednih modelih.",
+  },
+
+  {
+    id: 261,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Katera trditev o socialnem učenju je pravilna?",
+    options: [
+      "Ojačevanje je nujno za učenje.",
+      "Ljudje se lahko naučimo vedenja že samo z opazovanjem.",
+      "Posnemamo le ljudi istega spola.",
+      "Socialno učenje temelji izključno na kaznovanju.",
+    ],
+    answer: 1,
+    explanation:
+      "Bandura je pokazal, da se lahko naučimo brez neposredne nagrade.",
+  },
+
+  {
+    id: 262,
+    category: "ucenje",
+    difficulty: "medium",
+    question: "Kdo je raziskoval učenje z vpogledom?",
+    options: [
+      "Edward Thorndike.",
+      "Wolfgang Köhler.",
+      "Albert Bandura.",
+      "B. F. Skinner.",
+    ],
+    answer: 1,
+    explanation: "Köhler je proučeval vpogled pri šimpanzih.",
+  },
+
+  {
+    id: 263,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Kaj najbolje opisuje učenje z vpogledom?",
+    options: [
+      "Postopno učenje s poskusi in napakami.",
+      "Ponavljanje že naučenega vedenja.",
+      "Nenadno razumevanje rešitve problema.",
+      "Učenje preko nagrajevanja.",
+    ],
+    answer: 2,
+    explanation:
+      "Vpogled pomeni nenaden 'aha' trenutek pri reševanju problema.",
+  },
+
+  {
+    id: 264,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Kateri dejavnik običajno izboljša učenje?",
+    options: [
+      "Pomanjkanje spanja.",
+      "Visoka motivacija.",
+      "Dolgotrajna bolezen.",
+      "Popolna odsotnost predznanja.",
+    ],
+    answer: 1,
+    explanation: "Večja motivacija je pogosto povezana z boljšim učenjem.",
+  },
+
+  {
+    id: 265,
+    category: "ucenje",
+    difficulty: "hard",
+    question: "Zakaj prejšnje znanje pogosto olajša učenje?",
+    options: [
+      "Ker zmanjša potrebo po pozornosti.",
+      "Ker novo znanje lažje povežemo z obstoječim.",
+      "Ker preprečuje interferenco.",
+      "Ker nadomesti motivacijo.",
+    ],
+    answer: 1,
+    explanation:
+      "Novo snov lažje razumemo, če jo lahko povežemo s predhodnim znanjem.",
+  },
+
+  {
+    id: 266,
+    category: "misljenje",
+    difficulty: "medium",
+    question: "Kaj so pojmi?",
+    options: [
+      "Pravila za reševanje problemov.",
+      "Miselne kategorije, ki predstavljajo skupine predmetov, dogodkov ali dejavnosti.",
+      "Strategije odločanja v negotovih situacijah.",
+      "Vrste ustvarjalnega mišljenja.",
+    ],
+    answer: 1,
+    explanation: "Pojmi nam omogočajo razvrščanje in organizacijo informacij.",
+  },
+
+  {
+    id: 267,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj najbolje opisuje formalne pojme?",
+    options: [
+      "Temeljijo na osebnih izkušnjah.",
+      "Nimajo jasnih meja.",
+      "Temeljijo na natančno določenih pravilih.",
+      "Vedno vključujejo prototipe.",
+    ],
+    answer: 2,
+    explanation:
+      "Formalni pojmi imajo jasne kriterije, ki morajo biti izpolnjeni.",
+  },
+
+  {
+    id: 268,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj je značilno za naravne pojme?",
+    options: [
+      "Temeljijo izključno na matematičnih pravilih.",
+      "Vedno imajo natančno določene meje.",
+      "Oblikujejo se na podlagi izkušenj in nimajo vedno jasnih meja.",
+      "Ne vsebujejo prototipov.",
+    ],
+    answer: 2,
+    explanation:
+      "Naravni pojmi so bolj fleksibilni in izhajajo iz vsakodnevnih izkušenj.",
+  },
+
+  {
+    id: 269,
+    category: "misljenje",
+    difficulty: "medium",
+    question: "Kaj je prototip?",
+    options: [
+      "Najbolj značilen predstavnik neke kategorije.",
+      "Postopek za reševanje problemov.",
+      "Vrsta hevristike.",
+      "Miselna ovira.",
+    ],
+    answer: 0,
+    explanation: "Prototip predstavlja tipičen primer določene kategorije.",
+  },
+
+  {
+    id: 270,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kateri primer najbolje ponazarja prototip pojma PTICA?",
+    options: ["Pingvin.", "Noj.", "Vrabec.", "Netopir."],
+    answer: 2,
+    explanation: "Vrabec je za večino ljudi bolj tipičen predstavnik ptic.",
+  },
+
+  {
+    id: 271,
+    category: "misljenje",
+    difficulty: "medium",
+    question: "Kdaj govorimo o problemu?",
+    options: [
+      "Ko nimamo nobenega cilja.",
+      "Ko imamo cilj, vendar ne poznamo takojšnje poti do njega.",
+      "Ko uporabljamo algoritme.",
+      "Ko rešitev že poznamo.",
+    ],
+    answer: 1,
+    explanation:
+      "Problem nastane, ko želimo doseči cilj, vendar ne poznamo rešitve.",
+  },
+
+  {
+    id: 272,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj je glavna prednost algoritmov?",
+    options: [
+      "So zelo hitri.",
+      "Vedno vodijo do pravilne rešitve, če jih pravilno uporabimo.",
+      "Spodbujajo ustvarjalnost.",
+      "Temeljijo na intuiciji.",
+    ],
+    answer: 1,
+    explanation:
+      "Algoritmi predstavljajo natančne postopke za reševanje problemov.",
+  },
+
+  {
+    id: 273,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj je glavna pomanjkljivost hevristik?",
+    options: [
+      "Nikoli ne vodijo do rešitve.",
+      "So zelo počasne.",
+      "Povečajo verjetnost napak pri presoji.",
+      "Zahtevajo veliko matematičnega znanja.",
+    ],
+    answer: 2,
+    explanation:
+      "Hevristike omogočajo hitro odločanje, vendar povečajo možnost napak.",
+  },
+
+  {
+    id: 274,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kateri korak reševanja problemov sledi opredelitvi problema?",
+    options: [
+      "Akcija.",
+      "Izbira strategije.",
+      "Iskanje rešitev.",
+      "Vrednotenje.",
+    ],
+    answer: 2,
+    explanation: "Po opredelitvi problema razmišljamo o možnih rešitvah.",
+  },
+
+  {
+    id: 275,
+    category: "misljenje",
+    difficulty: "medium",
+    question: "Kaj pomeni vrednotenje pri reševanju problemov?",
+    options: [
+      "Izvedbo rešitve.",
+      "Izbiro strategije.",
+      "Preverjanje uspešnosti rešitve.",
+      "Prepoznavo problema.",
+    ],
+    answer: 2,
+    explanation: "Na koncu ocenimo, ali je bila rešitev uspešna.",
+  },
+
+  {
+    id: 276,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj je značilno za model ene lastnosti pri odločanju?",
+    options: [
+      "Ocenjujemo vse lastnosti enako.",
+      "Odločitev temelji na eni najpomembnejši lastnosti.",
+      "Možnosti postopoma izločamo.",
+      "Uporabljamo hevristike.",
+    ],
+    answer: 1,
+    explanation: "Pri tem modelu odločitev temelji na enem ključnem kriteriju.",
+  },
+
+  {
+    id: 277,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj pomeni model dodajanja pri odločanju?",
+    options: [
+      "Možnosti izločamo eno za drugo.",
+      "Vsaki lastnosti pripišemo vrednost in jih seštejemo.",
+      "Odločamo se naključno.",
+      "Temeljimo na eni lastnosti.",
+    ],
+    answer: 1,
+    explanation: "Skupna ocena temelji na seštevku različnih lastnosti.",
+  },
+
+  {
+    id: 278,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj pomeni model izločanja?",
+    options: [
+      "Izberemo prvo možnost.",
+      "Možnosti postopoma odstranjujemo glede na kriterije.",
+      "Uporabimo algoritem.",
+      "Temeljimo na intuiciji.",
+    ],
+    answer: 1,
+    explanation: "Neustrezne možnosti izločamo, dokler ne ostane najboljša.",
+  },
+
+  {
+    id: 279,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj je hevristika razpoložljivosti?",
+    options: [
+      "Presojanje na podlagi podobnosti.",
+      "Presojanje glede na prvo informacijo.",
+      "Ocenjevanje verjetnosti glede na to, kako hitro se nečesa spomnimo.",
+      "Odločanje na podlagi algoritmov.",
+    ],
+    answer: 2,
+    explanation: "Dogodki, ki se jih hitro spomnimo, se nam zdijo pogostejši.",
+  },
+
+  {
+    id: 280,
+    category: "misljenje",
+    difficulty: "hard",
+    question:
+      "Po poročilih o letalski nesreči se nam zdi letenje bolj nevarno. Gre za:",
+    options: [
+      "Hevristiko ujemanja.",
+      "Hevristiko razpoložljivosti.",
+      "Potrditveno pristranskost.",
+      "Funkcionalno fiksacijo.",
+    ],
+    answer: 1,
+    explanation:
+      "Nedavni in čustveno močni dogodki vplivajo na presojo verjetnosti.",
+  },
+
+  {
+    id: 281,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj pomeni hevristika ujemanja?",
+    options: [
+      "Presojanje na podlagi podobnosti z značilnim primerom.",
+      "Odločanje po algoritmu.",
+      "Uporabo starih rešitev.",
+      "Vrednotenje različnih možnosti.",
+    ],
+    answer: 0,
+    explanation: "Ljudje sklepamo na podlagi podobnosti s prototipom.",
+  },
+
+  {
+    id: 282,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj pomeni miselni set?",
+    options: [
+      "Nenadno razumevanje problema.",
+      "Vztrajanje pri uporabi stare rešitve za nov problem.",
+      "Nezmožnost uporabe predmeta na nov način.",
+      "Odločanje po intuiciji.",
+    ],
+    answer: 1,
+    explanation: "Miselni set nas lahko ovira pri iskanju boljših rešitev.",
+  },
+
+  {
+    id: 283,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj pomeni potrditvena pristranskost?",
+    options: [
+      "Iskanje informacij, ki potrjujejo naša prepričanja.",
+      "Uporaba algoritmov.",
+      "Vztrajanje pri enem načinu uporabe predmetov.",
+      "Naključno odločanje.",
+    ],
+    answer: 0,
+    explanation:
+      "Pogosto iščemo dokaze, ki podpirajo naše mnenje, in zanemarjamo nasprotne.",
+  },
+
+  {
+    id: 284,
+    category: "misljenje",
+    difficulty: "hard",
+    question: "Kaj pomeni precenjevanje pri presojanju?",
+    options: [
+      "Podcenjevanje lastnih sposobnosti.",
+      "Pretirano zaupanje v svoje znanje ali sposobnosti.",
+      "Odločanje na podlagi podobnosti.",
+      "Uporabo miselnih bližnjic.",
+    ],
+    answer: 1,
+    explanation: "Ljudje pogosto precenjujemo pravilnost svojih presoj.",
+  },
+
+  {
+    id: 285,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj najbolje opisuje instinkt?",
+    options: [
+      "Naučeno vedenje.",
+      "Prirojen biološki vzorec vedenja.",
+      "Želja po dosežkih.",
+      "Zunanja nagrada.",
+    ],
+    answer: 1,
+    explanation: "Instinkt je prirojen in podedovan vzorec vedenja.",
+  },
+
+  {
+    id: 286,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj pomeni gon?",
+    options: [
+      "Kratkotrajno čustveno stanje.",
+      "Trajna psihološka motivacijska sila.",
+      "Vrsta nagrade.",
+      "Oblika kazni.",
+    ],
+    answer: 1,
+    explanation: "Gon posameznika spodbuja k zadovoljitvi potrebe.",
+  },
+
+  {
+    id: 287,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj po teoriji gonov neposredno sledi potrebi?",
+    options: ["Motivacija.", "Vedenje.", "Psihična napetost.", "Nagrada."],
+    answer: 2,
+    explanation: "Potreba povzroči psihično napetost, ki vodi v nastanek gona.",
+  },
+
+  {
+    id: 288,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kateri goni sodijo med primarne gone?",
+    options: [
+      "Uspeh in ugled.",
+      "Moč in denar.",
+      "Lakota, žeja in spanje.",
+      "Pripadnost in ljubezen.",
+    ],
+    answer: 2,
+    explanation: "Primarni goni so povezani s preživetjem.",
+  },
+
+  {
+    id: 289,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kateri primer predstavlja sekundarni gon?",
+    options: ["Dihanje.", "Žeja.", "Spanje.", "Doseganje ugleda."],
+    answer: 3,
+    explanation: "Sekundarni goni nastanejo z učenjem.",
+  },
+
+  {
+    id: 290,
+    category: "motivacija",
+    difficulty: "medium",
+    question: "Kaj je osnovna ideja teorije vzburjenja?",
+    options: [
+      "Ljudje si želimo popolne umirjenosti.",
+      "Ljudje težimo k optimalni ravni vzburjenosti.",
+      "Motivira nas le nagrada.",
+      "Motivirajo nas le potrebe.",
+    ],
+    answer: 1,
+    explanation: "Ljudje iščemo ravnovesje med premalo in preveč vzburjenja.",
+  },
+
+  {
+    id: 291,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj se pogosto pojavi pri prenizki vzburjenosti?",
+    options: ["Evforija.", "Agresivnost.", "Dolgčas in monotonost.", "Panika."],
+    answer: 2,
+    explanation:
+      "Prenizka vzburjenost nas spodbuja k iskanju novih dražljajev.",
+  },
+
+  {
+    id: 292,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj je značilno za previsoko vzburjenost?",
+    options: [
+      "Povečana ustvarjalnost.",
+      "Stres in tesnoba.",
+      "Večja motivacija za dosežke.",
+      "Izboljšan spomin.",
+    ],
+    answer: 1,
+    explanation:
+      "Previsoka vzburjenost lahko povzroči stres in preobremenjenost.",
+  },
+
+  {
+    id: 293,
+    category: "motivacija",
+    difficulty: "medium",
+    question: "Kaj poudarja teorija pričakovanja?",
+    options: [
+      "Da nas motivirajo samo potrebe.",
+      "Da nas motivirajo pričakovani rezultati in nagrade.",
+      "Da vedenje določajo instinkti.",
+      "Da motivacija ni povezana z okoljem.",
+    ],
+    answer: 1,
+    explanation: "Pričakovana nagrada lahko sproži motivacijo.",
+  },
+
+  {
+    id: 294,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj pomeni psihosocialna motivacija?",
+    options: [
+      "Motive, povezane z biološkim preživetjem.",
+      "Motive, povezane z odnosi med ljudmi.",
+      "Motive, povezane z nagrajevanjem.",
+      "Motive, povezane z instinkti.",
+    ],
+    answer: 1,
+    explanation: "Psihosocialna motivacija vključuje povezanost in dosežke.",
+  },
+
+  {
+    id: 295,
+    category: "motivacija",
+    difficulty: "medium",
+    question: "Kaj pomeni navezanost?",
+    options: [
+      "Potrebo po dosežkih.",
+      "Najzgodnejšo potrebo po medosebnih odnosih.",
+      "Potrebo po moči.",
+      "Potrebo po priznanju.",
+    ],
+    answer: 1,
+    explanation: "Navezanost se pojavi že pri dojenčku.",
+  },
+
+  {
+    id: 296,
+    category: "motivacija",
+    difficulty: "medium",
+    question: "Kaj pomeni pripadnost?",
+    options: [
+      "Potrebo po samouresničitvi.",
+      "Potrebo po fizični varnosti.",
+      "Potrebo biti del skupine.",
+      "Potrebo po moči.",
+    ],
+    answer: 2,
+    explanation: "Pripadnost pomeni občutek sprejetosti in povezanosti.",
+  },
+
+  {
+    id: 297,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj je pogosto posledica nezadovoljene potrebe po povezanosti?",
+    options: [
+      "Povečana ustvarjalnost.",
+      "Osamljenost.",
+      "Večja samozavest.",
+      "Povečana agresivnost.",
+    ],
+    answer: 1,
+    explanation:
+      "Nezadovoljena potreba po povezanosti lahko vodi v osamljenost.",
+  },
+
+  {
+    id: 298,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj je značilno za ljudi z visoko motivacijo za dosežke?",
+    options: [
+      "Izogibajo se izzivom.",
+      "Hitro odnehajo.",
+      "Postavljajo si cilje in vztrajajo.",
+      "Ne prevzemajo odgovornosti.",
+    ],
+    answer: 2,
+    explanation: "Takšni posamezniki pogosto iščejo izzive in vztrajajo.",
+  },
+
+  {
+    id: 299,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kako se pogosto vedejo ljudje z nizko motivacijo za dosežke?",
+    options: [
+      "Vztrajajo pri zahtevnih nalogah.",
+      "Postavljajo si visoke cilje.",
+      "Pogosteje odlašajo in hitreje odnehajo.",
+      "Iščejo dodatne izzive.",
+    ],
+    answer: 2,
+    explanation:
+      "Nizka motivacija za dosežke je pogosto povezana z odlašanjem.",
+  },
+
+  {
+    id: 300,
+    category: "motivacija",
+    difficulty: "medium",
+    question: "Kaj je agresivnost?",
+    options: [
+      "Vsako tekmovalno vedenje.",
+      "Vedenje, namenjeno povzročanju škode.",
+      "Vsaka oblika jeze.",
+      "Potreba po dosežkih.",
+    ],
+    answer: 1,
+    explanation: "Agresivnost vključuje namero povzročiti škodo.",
+  },
+
+  {
+    id: 301,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj najbolje opisuje konstruktivno agresivnost?",
+    options: [
+      "Povzročanje škode brez razloga.",
+      "Zaščito ali reševanje problema.",
+      "Nasilje nad šibkejšimi.",
+      "Impulzivno vedenje.",
+    ],
+    answer: 1,
+    explanation: "Konstruktivna agresivnost je lahko usmerjena v obrambo.",
+  },
+
+  {
+    id: 302,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Katera oblika NI navedena med oblikami nasilja?",
+    options: [
+      "Fizično nasilje.",
+      "Psihično nasilje.",
+      "Verbalno nasilje.",
+      "Digitalno nasilje.",
+    ],
+    answer: 3,
+    explanation:
+      "V zapiskih so navedene fizična, psihična, verbalna in ekonomska oblika nasilja.",
+  },
+
+  {
+    id: 303,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kateri hormon je najpogosteje povezan z agresivnim vedenjem?",
+    options: ["Insulin.", "Testosteron.", "Melatonin.", "Oksitocin."],
+    answer: 1,
+    explanation:
+      "Androgeni hormoni, zlasti testosteron, lahko povečajo verjetnost agresivnosti.",
+  },
+
+  {
+    id: 304,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kateri dejavnik okolja lahko poveča agresivnost?",
+    options: [
+      "Meditacija.",
+      "Nasilje v medijih.",
+      "Dovolj spanja.",
+      "Telesna aktivnost.",
+    ],
+    answer: 1,
+    explanation: "Posnemanje nasilnih vzorcev lahko vpliva na vedenje.",
+  },
+
+  {
+    id: 305,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Katero čustvo pogosto poveča verjetnost agresivnega vedenja?",
+    options: ["Veselje.", "Ponos.", "Jeza.", "Presenečenje."],
+    answer: 2,
+    explanation: "Jeza, frustracija in sovražnost lahko povečajo agresivnost.",
+  },
+
+  {
+    id: 306,
+    category: "motivacija",
+    difficulty: "hard",
+    question:
+      "Katera možganska struktura sodeluje pri nadzoru vedenja in moralni presoji?",
+    options: [
+      "Mali možgani.",
+      "Hipokampus.",
+      "Prefrontalni korteks.",
+      "Talamus.",
+    ],
+    answer: 2,
+    explanation: "Prefrontalni korteks pomembno vpliva na samonadzor.",
+  },
+
+  {
+    id: 307,
+    category: "motivacija",
+    difficulty: "hard",
+    question:
+      "V katerem obdobju so nasilna vedenja in vpliv vrstnikov pogosto izrazitejši?",
+    options: [
+      "Pri starostnikih.",
+      "V adolescenci.",
+      "V zgodnjem otroštvu.",
+      "V odraslosti.",
+    ],
+    answer: 1,
+    explanation: "V adolescenci imajo vrstniki in skupine večji vpliv.",
+  },
+
+  {
+    id: 308,
+    category: "motivacija",
+    difficulty: "hard",
+    question: "Kaj lahko prispeva k nasilnemu vedenju v odraslosti?",
+    options: [
+      "Socialno učenje in zloraba substanc.",
+      "Dobra socialna opora.",
+      "Redna telesna dejavnost.",
+      "Visoka intrinzična motivacija.",
+    ],
+    answer: 0,
+    explanation:
+      "Pomembni dejavniki so med drugim alkohol, druge substance in socialno učenje.",
+  },
+
+  {
+    id: 309,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje osebnost?",
+    options: [
+      "Skupek prirojenih refleksov.",
+      "Edinstven in dolgotrajen vzorec mišljenja, čustvovanja in vedenja.",
+      "Izključno temperament posameznika.",
+      "Trenutno razpoloženje posameznika.",
+    ],
+    answer: 1,
+    explanation:
+      "Osebnost zajema značilne načine mišljenja, čustvovanja in vedenja.",
+  },
+
+  {
+    id: 310,
+    category: "osebnost",
+    difficulty: "hard",
+    question:
+      "Katera trditev najbolje opisuje razliko med osebnostjo in temperamentom?",
+    options: [
+      "Gre za sopomenki.",
+      "Temperament nastaja z učenjem, osebnost pa je prirojena.",
+      "Temperament je bolj prirojen, osebnost pa vključuje tudi okolje in izkušnje.",
+      "Temperament se razvije šele v odraslosti.",
+    ],
+    answer: 2,
+    explanation:
+      "Temperament je bolj biološko pogojen, osebnost pa širši pojem.",
+  },
+
+  {
+    id: 311,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kaj so osebnostne poteze?",
+    options: [
+      "Trenutna čustvena stanja.",
+      "Relativno trajne značilnosti posameznika.",
+      "Prirojeni refleksi.",
+      "Nezavedni konflikti.",
+    ],
+    answer: 1,
+    explanation:
+      "Osebnostne poteze predstavljajo stabilne značilnosti posameznika.",
+  },
+
+  {
+    id: 312,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kaj pomeni samopodoba?",
+    options: [
+      "Ocena lastne vrednosti.",
+      "Predstava, ki jo imamo o sebi.",
+      "Potreba po dosežkih.",
+      "Nezavedna vsebina.",
+    ],
+    answer: 1,
+    explanation: "Samopodoba vključuje misli, občutke in zaznave o sebi.",
+  },
+
+  {
+    id: 313,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kaj pomeni samospoštovanje?",
+    options: [
+      "Primerjanje z drugimi.",
+      "Vrednotenje samega sebe.",
+      "Željo po uspehu.",
+      "Zanikanje napak.",
+    ],
+    answer: 1,
+    explanation: "Samospoštovanje pomeni, kako cenimo samega sebe.",
+  },
+
+  {
+    id: 314,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj poudarjajo humanistične teorije osebnosti?",
+    options: [
+      "Nezavedne nagone.",
+      "Vlogo dednosti.",
+      "Svobodno voljo in osebno odgovornost.",
+      "Vedenje kot posledico pogojevanja.",
+    ],
+    answer: 2,
+    explanation: "Humanisti poudarjajo možnost izbire in osebno rast.",
+  },
+
+  {
+    id: 315,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kaj pomeni samoaktualizacija po Maslowu?",
+    options: [
+      "Doseganje družbenega statusa.",
+      "Uresničevanje lastnih potencialov.",
+      "Pripadnost skupini.",
+      "Zadovoljevanje fizioloških potreb.",
+    ],
+    answer: 1,
+    explanation: "Samoaktualizacija pomeni postati najboljša različica sebe.",
+  },
+
+  {
+    id: 316,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj je po Rogersu realno sebstvo?",
+    options: [
+      "Kakšni bi radi bili.",
+      "Kako nas vidijo drugi.",
+      "Kakšni smo v resnici.",
+      "Kako smo bili v otroštvu.",
+    ],
+    answer: 2,
+    explanation: "Realno sebstvo predstavlja našo dejansko predstavo o sebi.",
+  },
+
+  {
+    id: 317,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj je po Rogersu idealno sebstvo?",
+    options: [
+      "Kakšni smo v resnici.",
+      "Kakšni bi radi postali.",
+      "Kako nas ocenjuje družba.",
+      "Nezavedni del osebnosti.",
+    ],
+    answer: 1,
+    explanation:
+      "Idealno sebstvo predstavlja podobo osebe, kakršna želimo biti.",
+  },
+
+  {
+    id: 318,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kdaj je psihološko počutje po Rogersu najboljše?",
+    options: [
+      "Ko je razlika med realnim in idealnim sebstvom velika.",
+      "Ko ni razlik med ljudmi.",
+      "Ko je razlika med realnim in idealnim sebstvom čim manjša.",
+      "Ko prevladuje superego.",
+    ],
+    answer: 2,
+    explanation:
+      "Majhna razlika med obema oblikama sebstva je povezana z boljšim počutjem.",
+  },
+
+  {
+    id: 319,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Katere poteze je Allport označil kot najpomembnejše?",
+    options: [
+      "Sekundarne poteze.",
+      "Skupne poteze.",
+      "Centralne poteze.",
+      "Biološke poteze.",
+    ],
+    answer: 2,
+    explanation: "Centralne poteze najbolj določajo osebnost posameznika.",
+  },
+
+  {
+    id: 320,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj je primer sekundarne poteze?",
+    options: ["Vestnost.", "Poštenost.", "Način oblačenja.", "Družabnost."],
+    answer: 2,
+    explanation: "Sekundarne poteze so manj pomembne in manj stalne.",
+  },
+
+  {
+    id: 321,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Koliko osebnostnih faktorjev je opisal Cattell?",
+    options: ["5", "8", "12", "16"],
+    answer: 3,
+    explanation: "Cattell je razvil model 16 osebnostnih faktorjev.",
+  },
+
+  {
+    id: 322,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kateri model danes velja za najpomembnejši model osebnosti?",
+    options: [
+      "Freudova topika.",
+      "Big Five.",
+      "Cattellov model.",
+      "Behaviorizem.",
+    ],
+    answer: 1,
+    explanation: "Model velikih pet opisuje osebnost s petimi dimenzijami.",
+  },
+
+  {
+    id: 323,
+    category: "osebnost",
+    difficulty: "hard",
+    question:
+      "Katera dimenzija Big Five vključuje tesnobo in čustveno nestabilnost?",
+    options: ["Vestnost.", "Ekstraverzija.", "Nevroticizem.", "Odprtost."],
+    answer: 2,
+    explanation: "Visok nevroticizem pomeni večjo čustveno nestabilnost.",
+  },
+
+  {
+    id: 324,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj je značilno za visoko ekstraverzijo?",
+    options: [
+      "Zadržanost.",
+      "Družabnost in energičnost.",
+      "Tekmovalnost.",
+      "Tesnobnost.",
+    ],
+    answer: 1,
+    explanation: "Ekstravertirani posamezniki so bolj družabni in energični.",
+  },
+
+  {
+    id: 325,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni visoka odprtost za izkušnje?",
+    options: [
+      "Neorganiziranost.",
+      "Tradicionalnost.",
+      "Radovednost in ustvarjalnost.",
+      "Čustveno nestabilnost.",
+    ],
+    answer: 2,
+    explanation: "Odprtost vključuje zanimanje za nove ideje in izkušnje.",
+  },
+
+  {
+    id: 326,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj je značilno za visoko vestnost?",
+    options: [
+      "Impulzivnost.",
+      "Organiziranost in odgovornost.",
+      "Tekmovalnost.",
+      "Nezaupanje.",
+    ],
+    answer: 1,
+    explanation:
+      "Vestni posamezniki so bolj samodisciplinirani in organizirani.",
+  },
+
+  {
+    id: 327,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kaj menijo behavioristi o osebnosti?",
+    options: [
+      "Da jo določajo nezavedni konflikti.",
+      "Da je rezultat naučenih navad in odzivov.",
+      "Da temelji na genih.",
+      "Da je odvisna od sebstva.",
+    ],
+    answer: 1,
+    explanation: "Po behavioristih osebnost nastane skozi učenje.",
+  },
+
+  {
+    id: 328,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj poudarjajo socialni kognitivisti?",
+    options: [
+      "Izključno dednost.",
+      "Opazovanje drugih in lastna pričakovanja.",
+      "Nagone in nezavedno.",
+      "Moralna pravila.",
+    ],
+    answer: 1,
+    explanation:
+      "Socialni kognitivisti poudarjajo vpliv okolja in pričakovanj.",
+  },
+
+  {
+    id: 329,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kdo je ustanovitelj psihoanalize?",
+    options: [
+      "Carl Rogers.",
+      "Abraham Maslow.",
+      "Sigmund Freud.",
+      "Gordon Allport.",
+    ],
+    answer: 2,
+    explanation: "Freud velja za ustanovitelja psihoanalize.",
+  },
+
+  {
+    id: 330,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni princip ugodja?",
+    options: [
+      "Upoštevanje pravil in posledic.",
+      "Iskanje takojšnjega zadovoljstva.",
+      "Odlašanje zadovoljstva.",
+      "Samodisciplino.",
+    ],
+    answer: 1,
+    explanation: "Princip ugodja teži k hitremu zmanjšanju napetosti.",
+  },
+
+  {
+    id: 331,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kaj predstavlja zavestno po Freudovi prvi topiki?",
+    options: [
+      "Potlačene želje in konflikte.",
+      "Informacije, ki jih lahko prikličemo.",
+      "Kar trenutno zaznavamo in se zavedamo.",
+      "Nezavedne obrambne mehanizme.",
+    ],
+    answer: 2,
+    explanation: "Zavestno vključuje vsebine, ki se jih trenutno zavedamo.",
+  },
+
+  {
+    id: 332,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj najbolje opisuje predzavestno?",
+    options: [
+      "Vsebine, ki niso dostopne zavesti.",
+      "Informacije, ki jih lahko prikličemo v zavest.",
+      "Trenutno zaznavanje okolja.",
+      "Potlačene travmatične izkušnje.",
+    ],
+    answer: 1,
+    explanation:
+      "Predzavestno vsebuje informacije, ki niso v zavesti, vendar jih lahko prikličemo.",
+  },
+
+  {
+    id: 333,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj vsebuje nezavedno?",
+    options: [
+      "Le prijetne spomine.",
+      "Trenutne misli in občutke.",
+      "Potlačene želje, spomine in konflikte.",
+      "Informacije iz kratkoročnega spomina.",
+    ],
+    answer: 2,
+    explanation: "Freud je nezavednemu pripisoval velik vpliv na vedenje.",
+  },
+
+  {
+    id: 334,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kateri del osebnosti deluje po principu ugodja?",
+    options: ["Ego.", "Superego.", "Id.", "Sebstvo."],
+    answer: 2,
+    explanation: "Id želi takojšnjo zadovoljitev potreb.",
+  },
+
+  {
+    id: 335,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kateri del osebnosti deluje po principu realnosti?",
+    options: ["Id.", "Ego.", "Superego.", "Nezavedno."],
+    answer: 1,
+    explanation: "Ego usklajuje zahteve ida in realnosti.",
+  },
+
+  {
+    id: 336,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj predstavlja superego?",
+    options: [
+      "Nagonske želje.",
+      "Trenutne zaznave.",
+      "Moralo, pravila in vest.",
+      "Spominske procese.",
+    ],
+    answer: 2,
+    explanation: "Superego predstavlja ponotranjene moralne vrednote.",
+  },
+
+  {
+    id: 337,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni zanikanje kot obrambni mehanizem?",
+    options: [
+      "Iskanje logičnih razlag.",
+      "Nezavedno potlačevanje spominov.",
+      "Nesprejemanje realnosti.",
+      "Preusmerjanje čustev.",
+    ],
+    answer: 2,
+    explanation: "Pri zanikanju oseba ne sprejme dejanskega stanja.",
+  },
+
+  {
+    id: 338,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni racionalizacija?",
+    options: [
+      "Pripisovanje lastnosti drugim.",
+      "Iskanje navidezno logične razlage za neuspeh.",
+      "Preusmerjanje čustev.",
+      "Vrnitev na otroško vedenje.",
+    ],
+    answer: 1,
+    explanation: "Racionalizacija zmanjšuje neprijetne občutke z razlagami.",
+  },
+
+  {
+    id: 339,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni projekcija?",
+    options: [
+      "Preusmerjanje agresije.",
+      "Potlačevanje spominov.",
+      "Pripisovanje lastnih nezaželenih lastnosti drugim.",
+      "Vrnitev v zgodnejšo razvojno fazo.",
+    ],
+    answer: 2,
+    explanation: "Pri projekciji svoje lastnosti vidimo pri drugih.",
+  },
+
+  {
+    id: 340,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni premeščanje?",
+    options: [
+      "Preusmerjanje čustev na manj nevaren cilj.",
+      "Potlačevanje konfliktov.",
+      "Posnemanje drugih.",
+      "Idealiziranje sebe.",
+    ],
+    answer: 0,
+    explanation: "Čustva izrazimo na varnejšem objektu.",
+  },
+
+  {
+    id: 341,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni regresija?",
+    options: [
+      "Napredovanje v razvoju.",
+      "Vrnitev na bolj otroško vedenje.",
+      "Iskanje racionalnih razlag.",
+      "Prevzemanje lastnosti drugih.",
+    ],
+    answer: 1,
+    explanation: "Regresija pomeni vračanje k vedenju iz zgodnejšega obdobja.",
+  },
+
+  {
+    id: 342,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj pomeni sublimacija?",
+    options: [
+      "Zanikanje težav.",
+      "Potlačevanje čustev.",
+      "Preusmerjanje nesprejemljivih impulzov v družbeno sprejemljivo obliko.",
+      "Izogibanje odgovornosti.",
+    ],
+    answer: 2,
+    explanation: "Na primer preusmerjanje agresivnosti v šport.",
+  },
+
+  {
+    id: 343,
+    category: "osebnost",
+    difficulty: "hard",
+    question:
+      "Katera faza psihoseksualnega razvoja poteka približno med 0. in 1. letom?",
+    options: ["Analna faza.", "Oralna faza.", "Falična faza.", "Latenca."],
+    answer: 1,
+    explanation: "V oralni fazi so usta glavni vir zadovoljstva.",
+  },
+
+  {
+    id: 344,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "S katero razvojno nalogo je povezana analna faza?",
+    options: [
+      "Učenje hoje.",
+      "Navajanje na čistočo.",
+      "Razvoj govora.",
+      "Razvoj navezanosti.",
+    ],
+    answer: 1,
+    explanation: "Analna faza je povezana z nadzorom izločanja.",
+  },
+
+  {
+    id: 345,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj je značilno za fazo latence?",
+    options: [
+      "Povečan interes za spolnost.",
+      "Začasna oslabitev spolnih interesov.",
+      "Navajanje na čistočo.",
+      "Raziskovanje spolnih razlik.",
+    ],
+    answer: 1,
+    explanation: "Latenca traja približno od 6. leta do pubertete.",
+  },
+
+  {
+    id: 346,
+    category: "osebnost",
+    difficulty: "medium",
+    question: "Kdo je razvil teorijo navezanosti?",
+    options: [
+      "Carl Rogers.",
+      "John Bowlby.",
+      "Sigmund Freud.",
+      "Gordon Allport.",
+    ],
+    answer: 1,
+    explanation: "Bowlby je poudarjal prirojeno potrebo po navezovanju.",
+  },
+
+  {
+    id: 347,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj je značilno za varno navezanost?",
+    options: [
+      "Otrok se izogiba bližini.",
+      "Otrok zaupa skrbniku.",
+      "Otrok se pretirano boji ločitve.",
+      "Otrok kaže nepredvidljivo vedenje.",
+    ],
+    answer: 1,
+    explanation: "Varna navezanost temelji na zaupanju v skrbnika.",
+  },
+
+  {
+    id: 348,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Katera oblika navezanosti velja za najbolj problematično?",
+    options: [
+      "Varna navezanost.",
+      "Tesnobna navezanost.",
+      "Izogibajoča navezanost.",
+      "Dezorganizirana navezanost.",
+    ],
+    answer: 3,
+    explanation: "Dezorganizirana navezanost je povezana z največ težavami.",
+  },
+
+  {
+    id: 349,
+    category: "osebnost",
+    difficulty: "hard",
+    question: "Kaj najbolje opisuje vpliv dednosti in okolja na osebnost?",
+    options: [
+      "Osebnost določa izključno dednost.",
+      "Osebnost določa izključno okolje.",
+      "Osebnost nastaja zaradi vpliva dednosti in okolja.",
+      "Osebnost ni povezana z nobenim od teh dejavnikov.",
+    ],
+    answer: 2,
+    explanation: "Večina raziskav kaže, da osebnost oblikujeta oba dejavnika.",
+  },
+
+  {
+    id: 350,
+    category: "osebnost",
+    difficulty: "hard",
+    question:
+      "Katera trditev o osebnosti in kriminaliteti je najbolj pravilna?",
+    options: [
+      "Kriminaliteto povzroča ena sama osebnostna lastnost.",
+      "Med osebnostjo in kriminaliteto ni preproste povezave.",
+      "Vsi storilci imajo enak osebnostni profil.",
+      "Inteligentnost nima nobenega vpliva.",
+    ],
+    answer: 1,
+    explanation: "Na kriminaliteto vpliva več dejavnikov, ne le osebnost.",
+  },
+
+  {
+    id: 351,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje živčni sistem?",
+    options: [
+      "Sistem za prebavo hrane.",
+      "Komunikacijsko omrežje telesa.",
+      "Sistem za uravnavanje hormonov.",
+      "Sistem za proizvodnjo krvi.",
+    ],
+    answer: 1,
+    explanation:
+      "Živčni sistem sprejema informacije, jih obdeluje in pošilja ukaze telesu.",
+  },
+
+  {
+    id: 352,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Katera naloga NI med osnovnimi nalogami živčnega sistema?",
+    options: [
+      "Sprejemanje informacij.",
+      "Obdelava informacij.",
+      "Proizvodnja hormonov.",
+      "Pošiljanje ukazov telesu.",
+    ],
+    answer: 2,
+    explanation:
+      "Živčni sistem ne proizvaja hormonov, temveč usklajuje delovanje telesa.",
+  },
+
+  {
+    id: 353,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kaj je nevron?",
+    options: [
+      "Podporna celica živčnega sistema.",
+      "Osnovna živčna celica.",
+      "Vrsta nevrotransmiterja.",
+      "Del možganske skorje.",
+    ],
+    answer: 1,
+    explanation: "Nevron je osnovna funkcionalna enota živčnega sistema.",
+  },
+
+  {
+    id: 354,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kateri del nevrona sprejema informacije?",
+    options: ["Akson.", "Sinapsa.", "Dendriti.", "Živčni končiči."],
+    answer: 2,
+    explanation: "Dendriti sprejemajo informacije iz drugih nevronov.",
+  },
+
+  {
+    id: 355,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Katera naloga je značilna za akson?",
+    options: [
+      "Sprejemanje informacij.",
+      "Prehranjevanje celice.",
+      "Prenos impulza naprej.",
+      "Tvorba nevrotransmiterjev.",
+    ],
+    answer: 2,
+    explanation: "Akson prenaša živčni impulz proti naslednji celici.",
+  },
+
+  {
+    id: 356,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj je sinapsa?",
+    options: [
+      "Jedro nevrona.",
+      "Stik med dvema nevronoma.",
+      "Vrsta glia celice.",
+      "Električni impulz.",
+    ],
+    answer: 1,
+    explanation: "Sinapsa omogoča prenos signala med nevroni.",
+  },
+
+  {
+    id: 357,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kaj je glavna naloga glia celic?",
+    options: [
+      "Prenos impulzov.",
+      "Proizvodnja hormonov.",
+      "Zaščita in podpora nevronom.",
+      "Shranjevanje spominov.",
+    ],
+    answer: 2,
+    explanation: "Glia celice hranijo, ščitijo in podpirajo nevrone.",
+  },
+
+  {
+    id: 358,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj pomeni načelo 'vse ali nič'?",
+    options: [
+      "Impulz nastane delno.",
+      "Impulz nastane v celoti ali pa sploh ne.",
+      "Impulz se vedno okrepi.",
+      "Impulz je odvisen od volje.",
+    ],
+    answer: 1,
+    explanation: "Živčni impulz nima vmesnih stopenj.",
+  },
+
+  {
+    id: 359,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kako se informacije prenašajo po nevronih?",
+    options: [
+      "S hormoni.",
+      "S kemičnimi impulzi.",
+      "Z električnimi impulzi.",
+      "S krvnim obtokom.",
+    ],
+    answer: 2,
+    explanation: "Po nevronih potujejo električni impulzi.",
+  },
+
+  {
+    id: 360,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj so nevrotransmiterji?",
+    options: [
+      "Vrsta nevronov.",
+      "Kemične snovi za prenos signalov.",
+      "Deli aksona.",
+      "Električni impulzi.",
+    ],
+    answer: 1,
+    explanation: "Nevrotransmiterji omogočajo komunikacijo med nevroni.",
+  },
+
+  {
+    id: 361,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj pomeni ekscitatorni učinek?",
+    options: [
+      "Zmanjšanje možnosti novega impulza.",
+      "Spodbujanje nastanka novega impulza.",
+      "Upočasnitev prenosa.",
+      "Prekinitev komunikacije.",
+    ],
+    answer: 1,
+    explanation: "Ekscitatorni učinek poveča verjetnost impulza.",
+  },
+
+  {
+    id: 362,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj pomeni inhibitorni učinek?",
+    options: [
+      "Povečanje impulza.",
+      "Pospeševanje zaznavanja.",
+      "Zmanjšanje možnosti nastanka impulza.",
+      "Povečanje dopamina.",
+    ],
+    answer: 2,
+    explanation: "Inhibitorni učinek zavira delovanje nevrona.",
+  },
+
+  {
+    id: 363,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kateri nevrotransmiter je povezan z učenjem in spominom?",
+    options: ["Serotonin.", "Dopamin.", "Acetilholin.", "Endorfini."],
+    answer: 2,
+    explanation: "Acetilholin sodeluje pri učenju, spominu in gibanju mišic.",
+  },
+
+  {
+    id: 364,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj je glavna vloga endorfinov?",
+    options: [
+      "Povečanje budnosti.",
+      "Izboljšanje spomina.",
+      "Zmanjševanje bolečine.",
+      "Uravnavanje spanja.",
+    ],
+    answer: 2,
+    explanation: "Endorfini delujejo kot naravni analgetiki.",
+  },
+
+  {
+    id: 365,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "S čim je najbolj povezan dopamin?",
+    options: ["Spanjem.", "Nagrajevanjem in motivacijo.", "Prebavo.", "Vidom."],
+    answer: 1,
+    explanation: "Dopamin sodeluje v sistemu nagrajevanja.",
+  },
+
+  {
+    id: 366,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kateri nevrotransmiter vpliva na razpoloženje in spanje?",
+    options: ["Serotonin.", "Acetilholin.", "Dopamin.", "Endorfini."],
+    answer: 0,
+    explanation: "Serotonin vpliva na čustveno stabilnost in spanje.",
+  },
+
+  {
+    id: 367,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kaj pomeni zavest?",
+    options: [
+      "Sanje med spanjem.",
+      "Zavedanje sebe, okolja in misli.",
+      "Sposobnost učenja.",
+      "Refleksno vedenje.",
+    ],
+    answer: 1,
+    explanation: "Zavest pomeni doživljanje sebe in okolja.",
+  },
+
+  {
+    id: 368,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Katero stanje je primer spremenjenega stanja zavesti?",
+    options: ["Budnost.", "Meditacija.", "Refleks.", "Učenje."],
+    answer: 1,
+    explanation: "Meditacija spada med spremenjena stanja zavesti.",
+  },
+
+  {
+    id: 369,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kaj so psihoaktivne snovi?",
+    options: [
+      "Snovi za krepitev mišic.",
+      "Snovi, ki spreminjajo delovanje živčnega sistema in zavesti.",
+      "Vitamini.",
+      "Hormoni.",
+    ],
+    answer: 1,
+    explanation:
+      "Psihoaktivne snovi vplivajo na zavest in delovanje živčnega sistema.",
+  },
+
+  {
+    id: 370,
+    category: "zivcni",
+    difficulty: "hard",
+    question:
+      "Katera skupina psihoaktivnih snovi upočasnjuje delovanje živčnega sistema?",
+    options: ["Stimulansi.", "Halucinogeni.", "Depresanti.", "Amfetamini."],
+    answer: 2,
+    explanation: "Depresanti zmanjšujejo aktivnost živčnega sistema.",
+  },
+
+  {
+    id: 371,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kateri primer spada med depresante?",
+    options: ["Kokain.", "LSD.", "Alkohol.", "Kofein."],
+    answer: 2,
+    explanation: "Alkohol je najpogosteje uporabljen depresant.",
+  },
+
+  {
+    id: 372,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kateri znak lahko kaže na odvisnost od alkohola?",
+    options: [
+      "Pitje le ob praznikih.",
+      "Jutranje pitje.",
+      "Pitje vode.",
+      "Redna telesna vadba.",
+    ],
+    answer: 1,
+    explanation: "Jutranje pitje je eden od opozorilnih znakov odvisnosti.",
+  },
+
+  {
+    id: 373,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kaj je značilno za stimulanse?",
+    options: [
+      "Upočasnijo odzive.",
+      "Povečajo budnost in energijo.",
+      "Zmanjšajo pozornost.",
+      "Povzročijo zaspanost.",
+    ],
+    answer: 1,
+    explanation: "Stimulansi povečajo aktivnost živčnega sistema.",
+  },
+
+  {
+    id: 374,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kateri stimulans uporabljamo najpogosteje?",
+    options: ["Kokain.", "Amfetamine.", "Kofein.", "Nikotin."],
+    answer: 2,
+    explanation: "Kofein je najpogosteje uporabljan stimulans.",
+  },
+
+  {
+    id: 375,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Katera nevarnost je povezana z amfetamini?",
+    options: ["Hipnoza.", "Psihoza.", "Izguba sluha.", "Paraliza."],
+    answer: 1,
+    explanation: "Dolgotrajna uporaba lahko povzroči psihozo.",
+  },
+
+  {
+    id: 376,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj so halucinacije?",
+    options: [
+      "Napačne interpretacije dražljajev.",
+      "Zaznave brez zunanjega dražljaja.",
+      "Vrsta spomina.",
+      "Oblika pozornosti.",
+    ],
+    answer: 1,
+    explanation: "Pri halucinacijah zunanji dražljaj ni prisoten.",
+  },
+
+  {
+    id: 377,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Katera snov močno spremeni zaznavanje?",
+    options: ["Nikotin.", "LSD.", "Alkohol.", "Kofein."],
+    answer: 1,
+    explanation: "LSD je eden najbolj znanih halucinogenov.",
+  },
+
+  {
+    id: 378,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj lahko povzroči PCP?",
+    options: [
+      "Izboljšan spomin.",
+      "Paranojo in psihotične simptome.",
+      "Boljšo koncentracijo.",
+      "Zmanjšano budnost.",
+    ],
+    answer: 1,
+    explanation: "PCP lahko povzroči resne psihične težave.",
+  },
+
+  {
+    id: 379,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "MDMA ima lastnosti:",
+    options: [
+      "Depresanta in opiata.",
+      "Stimulansa in halucinogena.",
+      "Le stimulansa.",
+      "Le halucinogena.",
+    ],
+    answer: 1,
+    explanation: "Ekstazi združuje učinke obeh skupin.",
+  },
+
+  {
+    id: 380,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Kaj je značilno za narkotike (opiate)?",
+    options: [
+      "Povečajo budnost.",
+      "Zmanjšajo občutek bolečine.",
+      "Izboljšajo spomin.",
+      "Povečajo koncentracijo.",
+    ],
+    answer: 1,
+    explanation: "Opiati zmanjšujejo bolečino in povzročajo sproščenost.",
+  },
+
+  {
+    id: 381,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Katera nevarnost je posebej značilna za opiate?",
+    options: [
+      "Izguba vida.",
+      "Močna odvisnost in predoziranje.",
+      "Izguba sluha.",
+      "Nespečnost.",
+    ],
+    answer: 1,
+    explanation: "Opiati imajo veliko tveganje za odvisnost.",
+  },
+
+  {
+    id: 382,
+    category: "zivcni",
+    difficulty: "medium",
+    question: "Kateri učinek je pogosto povezan z marihuano?",
+    options: [
+      "Povečana agresivnost.",
+      "Evforija in sproščenost.",
+      "Hitra budnost.",
+      "Popolna odsotnost čustev.",
+    ],
+    answer: 1,
+    explanation: "Marihuana pogosto povzroči sproščenost in evforijo.",
+  },
+
+  {
+    id: 383,
+    category: "zivcni",
+    difficulty: "hard",
+    question: "Na katero področje lahko marihuana negativno vpliva?",
+    options: [
+      "Usmerjanje pozornosti.",
+      "Barvo oči.",
+      "Telesno višino.",
+      "Krvno skupino.",
+    ],
+    answer: 0,
+    explanation: "Lahko poslabša pozornost, presojo in reševanje problemov.",
+  },
+
+  {
+    id: 384,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Zakaj je zavest pomembna za vsakodnevno delovanje?",
+    options: [
+      "Omogoča proizvodnjo hormonov.",
+      "Omogoča načrtovanje, odločanje in razumevanje okolja.",
+      "Uravnava telesno temperaturo.",
+      "Nadzira reflekse.",
+    ],
+    answer: 1,
+    explanation:
+      "Zavest nam omogoča načrtovanje, sprejemanje odločitev in razumevanje okolja.",
+  },
+
+  {
+    id: 385,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj je značilno za zavest budnega stanja?",
+    options: [
+      "Povečana sugestibilnost.",
+      "Močno zavrte mišice.",
+      "Organizirano mišljenje in zavedanje okolice.",
+      "Pojavljanje sanj.",
+    ],
+    answer: 2,
+    explanation:
+      "Pri budnem stanju je pozornost usmerjena v okolje, mišljenje pa je organizirano.",
+  },
+
+  {
+    id: 386,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje spanje?",
+    options: [
+      "Popolno prenehanje delovanja možganov.",
+      "Naravno, periodično stanje zmanjšane zavesti.",
+      "Oblika hipnoze.",
+      "Stanje brez sanj.",
+    ],
+    answer: 1,
+    explanation:
+      "Med spanjem možgani še vedno delujejo in opravljajo pomembne funkcije.",
+  },
+
+  {
+    id: 387,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj je cirkadijski ritem?",
+    options: [
+      "90-minutni cikel REM spanja.",
+      "Približno 24-urni biološki cikel.",
+      "Obdobje globokega spanja.",
+      "Vrsta EEG valov.",
+    ],
+    answer: 1,
+    explanation:
+      "Cirkadijski ritem uravnava spanje, budnost in druge telesne procese.",
+  },
+
+  {
+    id: 388,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Katera funkcija NI povezana s cirkadijskim ritmom?",
+    options: [
+      "Uravnavanje budnosti.",
+      "Uravnavanje telesne temperature.",
+      "Izločanje hormonov.",
+      "Prenos impulzov po nevronih.",
+    ],
+    answer: 3,
+    explanation: "Prenos impulzov ni funkcija cirkadijskega ritma.",
+  },
+
+  {
+    id: 389,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Katera telesna funkcija spanja je posebej pomembna?",
+    options: [
+      "Povečanje agresivnosti.",
+      "Regeneracija organizma.",
+      "Zmanjšanje imunosti.",
+      "Upočasnitev metabolizma.",
+    ],
+    answer: 1,
+    explanation: "Spanje omogoča obnovo tkiv in krepitev imunskega sistema.",
+  },
+
+  {
+    id: 390,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Kako spanje vpliva na učenje?",
+    options: [
+      "Povzroča pozabljanje.",
+      "Nima vpliva na spomin.",
+      "Prispeva k utrjevanju spomina.",
+      "Onemogoča organizacijo znanja.",
+    ],
+    answer: 2,
+    explanation:
+      "Med spanjem se utrjujejo spomini in organizira naučeno gradivo.",
+  },
+
+  {
+    id: 391,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj pomeni deprivacija spanja?",
+    options: [
+      "Prekomerno spanje.",
+      "Pomanjkanje ali odvzem spanja.",
+      "Spanje v REM fazi.",
+      "Pojav nočnih mor.",
+    ],
+    answer: 1,
+    explanation: "Deprivacija pomeni nezadostno količino spanja.",
+  },
+
+  {
+    id: 392,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Katera psihološka posledica je značilna za deprivacijo spanja?",
+    options: [
+      "Izboljšan spomin.",
+      "Boljša koncentracija.",
+      "Slabše odločanje.",
+      "Povečana ustvarjalnost.",
+    ],
+    answer: 2,
+    explanation: "Pomanjkanje spanja vpliva na koncentracijo in presojo.",
+  },
+
+  {
+    id: 393,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Kateri dve glavni vrsti spanja ločimo?",
+    options: [
+      "REM in alfa.",
+      "NREM in REM.",
+      "Theta in delta.",
+      "Globoko in površinsko.",
+    ],
+    answer: 1,
+    explanation: "Spanje delimo na NREM in REM obdobja.",
+  },
+
+  {
+    id: 394,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj je značilno za NREM spanje?",
+    options: [
+      "Hitro gibanje oči.",
+      "Močna mišična paraliza.",
+      "Globlji počitek in obnova telesa.",
+      "Največ sanj.",
+    ],
+    answer: 2,
+    explanation: "NREM spanje je pomembno za telesno regeneracijo.",
+  },
+
+  {
+    id: 395,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj je značilno za REM spanje?",
+    options: [
+      "Možganska aktivnost se zmanjša.",
+      "Mišice so popolnoma aktivne.",
+      "Pojavi se hitro gibanje oči in večina sanj.",
+      "Ni EEG aktivnosti.",
+    ],
+    answer: 2,
+    explanation: "REM faza je povezana z intenzivnim sanjanjem.",
+  },
+
+  {
+    id: 396,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kateri EEG valovi so značilni za globoko spanje?",
+    options: ["Alfa.", "Beta.", "Theta.", "Delta."],
+    answer: 3,
+    explanation: "Delta valovi so značilni za najgloblje faze spanja.",
+  },
+
+  {
+    id: 397,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kateri EEG valovi prevladujejo v 1. in 2. fazi spanja?",
+    options: ["Beta.", "Alfa.", "Theta.", "Delta."],
+    answer: 2,
+    explanation: "Rahlo spanje spremljajo theta valovi.",
+  },
+
+  {
+    id: 398,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Kaj so sanje?",
+    options: [
+      "Električni impulzi v možganih.",
+      "Zaporedje podob, misli in občutkov med spanjem.",
+      "Vrsta hipnoze.",
+      "Motnja spanja.",
+    ],
+    answer: 1,
+    explanation: "Sanje vključujejo različne miselne in čustvene vsebine.",
+  },
+
+  {
+    id: 399,
+    category: "zavest",
+    difficulty: "hard",
+    question: "V kateri fazi spanja se pojavi največ sanj?",
+    options: ["1. faza NREM.", "2. faza NREM.", "Globoko NREM.", "REM."],
+    answer: 3,
+    explanation: "Večina sanj se pojavlja v REM spanju.",
+  },
+
+  {
+    id: 400,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Kaj je nespečnost (insomnija)?",
+    options: [
+      "Nenadno uspavanje.",
+      "Težave z uspavanjem ali vzdrževanjem spanja.",
+      "Prekomerno sanjanje.",
+      "Motnja dihanja.",
+    ],
+    answer: 1,
+    explanation: "Insomnija pomeni motnje v kakovosti ali količini spanja.",
+  },
+
+  {
+    id: 401,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj je značilno za narkolepsijo?",
+    options: [
+      "Pogoste nočne more.",
+      "Težave z uspavanjem.",
+      "Nenadni napadi spanja.",
+      "Prekomerna aktivnost ponoči.",
+    ],
+    answer: 2,
+    explanation: "Pri narkolepsiji posameznik težko nadzoruje budnost.",
+  },
+
+  {
+    id: 402,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje hipnozo?",
+    options: [
+      "Vrsto globokega spanja.",
+      "Socialno interakcijo s povečano odzivnostjo na sugestije.",
+      "Obliko meditacije.",
+      "Izgubo zavesti.",
+    ],
+    answer: 1,
+    explanation: "Hipnoza temelji na sugestibilnosti in usmerjeni pozornosti.",
+  },
+
+  {
+    id: 403,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj so posthipnotične sugestije?",
+    options: [
+      "Sanje med hipnozo.",
+      "Navodila, izvedena po končani hipnozi.",
+      "Spremembe EEG valov.",
+      "Vrsta meditacije.",
+    ],
+    answer: 1,
+    explanation: "Gre za vedenje, ki ga posameznik izvede po hipnozi.",
+  },
+
+  {
+    id: 404,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Katera trditev o hipnozi je pravilna?",
+    options: [
+      "Hipnoza deluje proti volji posameznika.",
+      "Hipnoza lahko ustvari nove talente.",
+      "Hipnoza ne povzroči vedenja v nasprotju z vrednotami posameznika.",
+      "Hipnoza človeka fizično okrepi.",
+    ],
+    answer: 2,
+    explanation: "Hipnoza ima omejitve in ne premaga posameznikovih vrednot.",
+  },
+
+  {
+    id: 405,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj pomeni hipermnezija?",
+    options: [
+      "Popolna izguba spomina.",
+      "Izboljšan priklic nekaterih spominov.",
+      "Pretirano sanjanje.",
+      "Strah pred spanjem.",
+    ],
+    answer: 1,
+    explanation: "Hipermnezija pomeni okrepljen priklic določenih spominov.",
+  },
+
+  {
+    id: 406,
+    category: "zavest",
+    difficulty: "medium",
+    question: "Kaj je meditacija?",
+    options: [
+      "Oblika hipnoze.",
+      "Skupek tehnik za osredotočeno pozornost in umiritev.",
+      "Vrsta REM spanja.",
+      "Motnja zavesti.",
+    ],
+    answer: 1,
+    explanation: "Meditacija poveča zavedanje in umirjenost.",
+  },
+
+  {
+    id: 407,
+    category: "zavest",
+    difficulty: "hard",
+    question: "Kaj je značilno za transcendentalno meditacijo?",
+    options: [
+      "Hitro gibanje oči.",
+      "Ponavljanje mantre.",
+      "Globoko NREM spanje.",
+      "Hipnotične sugestije.",
+    ],
+    answer: 1,
+    explanation: "Transcendentalna meditacija temelji na ponavljanju mantre.",
+  },
+
+  {
+    id: 408,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje čustvo?",
+    options: [
+      "Izključno telesno reakcijo.",
+      "Psihološko in fiziološko reakcijo na pomembne dogodke.",
+      "Le trenutno razpoloženje.",
+      "Vrsto motivacije.",
+    ],
+    answer: 1,
+    explanation:
+      "Čustva vključujejo psihološke in telesne odzive na pomembne situacije.",
+  },
+
+  {
+    id: 409,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj pomeni adaptivna funkcija čustev?",
+    options: [
+      "Da čustva vedno povzročajo težave.",
+      "Da pomagajo preživeti in se prilagoditi okolju.",
+      "Da so čustva izključno prirojena.",
+      "Da jih ni mogoče nadzorovati.",
+    ],
+    answer: 1,
+    explanation: "Čustva imajo pomembno prilagoditveno vlogo.",
+  },
+
+  {
+    id: 410,
+    category: "custva",
+    difficulty: "medium",
+    question: "Katera sestavina čustev vključuje spremembe v telesu?",
+    options: ["Vedenjska.", "Subjektivna.", "Fiziološka.", "Kognitivna."],
+    answer: 2,
+    explanation: "Fiziološka sestavina vključuje telesne odzive.",
+  },
+
+  {
+    id: 411,
+    category: "custva",
+    difficulty: "medium",
+    question: "Katera sestavina čustev vključuje jok, smeh in kričanje?",
+    options: ["Fiziološka.", "Subjektivna.", "Vedenjska.", "Reflektivna."],
+    answer: 2,
+    explanation: "Vedenjski del predstavlja izražanje čustev.",
+  },
+
+  {
+    id: 412,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kaj pomeni subjektivna izkušnja čustev?",
+    options: [
+      "Notranje doživljanje čustev.",
+      "Spremembe srčnega utripa.",
+      "Obrazne izraze.",
+      "Telesne gibe.",
+    ],
+    answer: 0,
+    explanation: "Subjektivna sestavina pomeni, kako čustvo doživljamo.",
+  },
+
+  {
+    id: 413,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kateri živčni sistem se aktivira pri močnih čustvih?",
+    options: ["Somatski.", "Parasimpatični.", "Simpatični.", "Centralni."],
+    answer: 2,
+    explanation: "Simpatični živčni sistem pripravi telo na odziv.",
+  },
+
+  {
+    id: 414,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj je reakcija boj ali beg?",
+    options: [
+      "Vrsta meditacije.",
+      "Priprava telesa na soočenje ali umik pred nevarnostjo.",
+      "Oblika spanja.",
+      "Način učenja.",
+    ],
+    answer: 1,
+    explanation: "Gre za prilagoditveni odziv na nevarnost.",
+  },
+
+  {
+    id: 415,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj je glavna vloga amigdale?",
+    options: [
+      "Uravnavanje prebave.",
+      "Prepoznavanje nevarnosti in čustveni odzivi.",
+      "Shranjevanje proceduralnega spomina.",
+      "Nadzor govora.",
+    ],
+    answer: 1,
+    explanation: "Amigdala sodeluje pri strahu in čustvenem odzivanju.",
+  },
+
+  {
+    id: 416,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj pomeni, da amigdala lahko obide korteks?",
+    options: [
+      "Da ustavi delovanje možganov.",
+      "Da se čustveni odziv pojavi pred zavestno analizo.",
+      "Da izboljša spomin.",
+      "Da povzroči spanje.",
+    ],
+    answer: 1,
+    explanation: "Najprej reagiramo, šele nato situacijo zavestno ocenimo.",
+  },
+
+  {
+    id: 417,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kaj uravnava avtonomni živčni sistem?",
+    options: [
+      "Le gibanje mišic.",
+      "Srčni utrip, dihanje in potenje.",
+      "Učenje matematike.",
+      "Sanje.",
+    ],
+    answer: 1,
+    explanation: "Avtonomni živčni sistem deluje neodvisno od naše volje.",
+  },
+
+  {
+    id: 418,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kateri način izražanja čustev je najpomembnejši?",
+    options: ["Pisanje.", "Obrazni izrazi.", "Hoja.", "Dihanje."],
+    answer: 1,
+    explanation: "Obrazni izrazi pomembno prispevajo k sporazumevanju.",
+  },
+
+  {
+    id: 419,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kdo je raziskoval univerzalnost obraznih izrazov?",
+    options: [
+      "Sigmund Freud.",
+      "Albert Bandura.",
+      "Paul Ekman.",
+      "Carl Rogers.",
+    ],
+    answer: 2,
+    explanation: "Ekman je dokazoval univerzalnost osnovnih čustev.",
+  },
+
+  {
+    id: 420,
+    category: "custva",
+    difficulty: "hard",
+    question: "Katero čustvo NI med Ekmanovimi osnovnimi čustvi?",
+    options: ["Gnus.", "Presenečenje.", "Ljubosumje.", "Strah."],
+    answer: 2,
+    explanation: "Ljubosumje ni med šestimi osnovnimi čustvi.",
+  },
+
+  {
+    id: 421,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj pomeni univerzalnost čustev?",
+    options: [
+      "Da vsi ljudje doživljajo in prepoznavajo osnovna čustva.",
+      "Da vsi izražajo čustva enako.",
+      "Da čustva niso prirojena.",
+      "Da kulture nimajo vpliva.",
+    ],
+    answer: 0,
+    explanation: "Osnovne izraze čustev prepoznavajo ljudje po vsem svetu.",
+  },
+
+  {
+    id: 422,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kaj vpliva na način izražanja čustev?",
+    options: [
+      "Le genetika.",
+      "Le starost.",
+      "Kultura in družbena pričakovanja.",
+      "Samo inteligentnost.",
+    ],
+    answer: 2,
+    explanation: "Kultura vpliva predvsem na izražanje čustev.",
+  },
+
+  {
+    id: 423,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kaj pomeni kognitivni element čustvovanja?",
+    options: [
+      "Telesni odziv.",
+      "Način, kako si dogodek razlagamo.",
+      "Izraz na obrazu.",
+      "Možganske valove.",
+    ],
+    answer: 1,
+    explanation: "Interpretacija dogodka vpliva na čustveni odziv.",
+  },
+
+  {
+    id: 424,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj je avtomatsko ocenjevanje?",
+    options: [
+      "Počasna analiza situacije.",
+      "Hitro in nezavedno vrednotenje dogodkov.",
+      "Vrsta meditacije.",
+      "Spomin na dogodke.",
+    ],
+    answer: 1,
+    explanation: "Avtomatsko ocenjevanje poteka brez zavestnega razmišljanja.",
+  },
+
+  {
+    id: 425,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj je reflektivno ocenjevanje?",
+    options: [
+      "Hitra reakcija brez razmisleka.",
+      "Počasnejše in zavestno tehtanje situacije.",
+      "Vrsta spanja.",
+      "Samodejno vrednotenje.",
+    ],
+    answer: 1,
+    explanation: "Reflektivno ocenjevanje vključuje premišljen odziv.",
+  },
+
+  {
+    id: 426,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj pomeni pogojevanje strahu?",
+    options: [
+      "Da se strahu ne moremo naučiti.",
+      "Da se strah lahko razvije preko izkušenj.",
+      "Da je strah vedno prirojen.",
+      "Da je strah vedno racionalen.",
+    ],
+    answer: 1,
+    explanation: "Strah se lahko naučimo s povezovanjem izkušenj.",
+  },
+
+  {
+    id: 427,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kako močna čustva pogosto vplivajo na spomin?",
+    options: [
+      "Poslabšajo vse oblike spomina.",
+      "Izboljšajo zapomnitev pomembnih dogodkov.",
+      "Izbrišejo stare spomine.",
+      "Nimajo vpliva.",
+    ],
+    answer: 1,
+    explanation: "Čustveno pomembni dogodki ostanejo bolj v spominu.",
+  },
+
+  {
+    id: 428,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kaj je empatija?",
+    options: [
+      "Sposobnost vplivanja na druge.",
+      "Sposobnost razumeti čustva drugih.",
+      "Pomanjkanje čustev.",
+      "Nadzor vedenja.",
+    ],
+    answer: 1,
+    explanation: "Empatija pomeni vživljanje v doživljanje drugih.",
+  },
+
+  {
+    id: 429,
+    category: "custva",
+    difficulty: "medium",
+    question: "Kako čustva vplivajo na učenje?",
+    options: [
+      "Nimajo vpliva.",
+      "Vplivajo na pozornost, motivacijo in spomin.",
+      "Vplivajo le na spomin.",
+      "Vedno izboljšajo učenje.",
+    ],
+    answer: 1,
+    explanation: "Čustva pomembno vplivajo na učni proces.",
+  },
+
+  {
+    id: 430,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kaj pomeni potrditvena pristranskost pri čustvovanju?",
+    options: [
+      "Iščemo informacije, ki potrjujejo naša prepričanja.",
+      "Vedno spreminjamo mnenje.",
+      "Odločamo se naključno.",
+      "Pozabljamo neprijetne dogodke.",
+    ],
+    answer: 0,
+    explanation: "Ljudje pogosto iščemo potrditve svojih pogledov.",
+  },
+
+  {
+    id: 431,
+    category: "custva",
+    difficulty: "hard",
+    question: "Kako lahko psihoterapija pomaga pri čustvih?",
+    options: [
+      "Odstrani vsa čustva.",
+      "Pomaga prepoznati napačne interpretacije in spremeniti odzive.",
+      "Izboljša inteligentnost.",
+      "Prepreči nastanek stresa.",
+    ],
+    answer: 1,
+    explanation:
+      "Psihoterapija pomaga pri boljšem razumevanju sebe in svojih odzivov.",
+  },
+
+  {
+    id: 432,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje laž?",
+    options: [
+      "Vsaka napačna informacija.",
+      "Namerno podajanje napačne ali zavajajoče informacije.",
+      "Vsako prikrivanje čustev.",
+      "Vsak dvoumen odgovor.",
+    ],
+    answer: 1,
+    explanation:
+      "Laž vključuje namen, da druga oseba verjame nekaj, kar ni res.",
+  },
+
+  {
+    id: 433,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Katera trditev o zavajanju je pravilna?",
+    options: [
+      "Vsako zavajanje je laganje.",
+      "Zavajanje je mogoče tudi z molkom ali izpuščanjem informacij.",
+      "Zavajanje je vedno nezavedno.",
+      "Zavajanje pomeni le neposredno laganje.",
+    ],
+    answer: 1,
+    explanation: "Nekdo lahko zavaja tudi brez izrečene laži.",
+  },
+
+  {
+    id: 434,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Kako uspešni so ljudje pri prepoznavanju laži?",
+    options: [
+      "Skoraj vedno pravilno prepoznajo laž.",
+      "Veliko bolje od naključja.",
+      "Njihova uspešnost ni bistveno boljša od naključja.",
+      "Uspešni so le psihologi.",
+    ],
+    answer: 2,
+    explanation: "Raziskave kažejo, da večina ljudi ni posebej uspešna.",
+  },
+
+  {
+    id: 435,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj so pokazale raziskave o policistih in prepoznavanju laži?",
+    options: [
+      "So skoraj nezmotljivi.",
+      "Veliko uspešnejši so od drugih ljudi.",
+      "Niso bistveno uspešnejši od začetnikov.",
+      "Nikoli ne naredijo napake.",
+    ],
+    answer: 2,
+    explanation: "Izkušeni policisti niso bistveno boljši pri odkrivanju laži.",
+  },
+
+  {
+    id: 436,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj pomeni ugotovitev 'samozaupanje ≠ dejanska uspešnost'?",
+    options: [
+      "Samozavestni ljudje vedno lažejo.",
+      "Prepričanje v svojo uspešnost ne pomeni, da smo res uspešni.",
+      "Samozaupanje izboljša prepoznavanje laži.",
+      "Policisti niso samozavestni.",
+    ],
+    answer: 1,
+    explanation: "Ljudje pogosto precenjujejo svoje sposobnosti.",
+  },
+
+  {
+    id: 437,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Zakaj je prepoznavanje laži težavno?",
+    options: [
+      "Ker lažnivci ne kažejo čustev.",
+      "Ker nihče ne zna lagati.",
+      "Ker ni mogoče nadzorovati vseh znakov vedenja.",
+      "Ker poligraf vedno odkrije laž.",
+    ],
+    answer: 2,
+    explanation: "Lažnivec lahko nadzoruje le del svojega vedenja.",
+  },
+
+  {
+    id: 438,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Zakaj nervoza ni zanesljiv znak laganja?",
+    options: [
+      "Ker lažnivci niso nervozni.",
+      "Ker so lahko nervozni tudi nedolžni ljudje.",
+      "Ker nervoza kaže na inteligentnost.",
+      "Ker nervoza pomeni agresivnost.",
+    ],
+    answer: 1,
+    explanation: "Stres in strah lahko doživljajo tudi pošteni posamezniki.",
+  },
+
+  {
+    id: 439,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Kaj moramo vedno upoštevati pri ocenjevanju laganja?",
+    options: [
+      "Le izraz obraza.",
+      "Le ton glasu.",
+      "Kontekst in okoliščine.",
+      "Le telesne gibe.",
+    ],
+    answer: 2,
+    explanation: "Pomembni so situacija, osebnost in okoliščine.",
+  },
+
+  {
+    id: 440,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj pomeni izraz 'spillage of inappropriate emotion'?",
+    options: [
+      "Pretirano izražanje veselja.",
+      "Uhajanje prikritih čustev.",
+      "Nezmožnost izražanja čustev.",
+      "Namerno pretvarjanje.",
+    ],
+    answer: 1,
+    explanation: "Čustva se lahko nehote pokažejo kljub poskusom prikrivanja.",
+  },
+
+  {
+    id: 441,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Kdo je raziskoval uhajanje čustev in laganje?",
+    options: [
+      "Sigmund Freud.",
+      "Albert Bandura.",
+      "Paul Ekman.",
+      "Carl Rogers.",
+    ],
+    answer: 2,
+    explanation: "Ekman je proučeval obrazne izraze in mikroizraze.",
+  },
+
+  {
+    id: 442,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kateri govorni znak je lahko povezan z laganjem?",
+    options: [
+      "Popolnoma tekoč govor.",
+      "Pavze in zatikanje.",
+      "Bogat besedni zaklad.",
+      "Glasno smejanje.",
+    ],
+    answer: 1,
+    explanation: "Pri laganju se lahko pojavijo govorne napake.",
+  },
+
+  {
+    id: 443,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Katera sprememba glasu je lahko pokazatelj laganja?",
+    options: [
+      "Globlji glas.",
+      "Višji glas.",
+      "Tišji govor.",
+      "Počasnejše dihanje.",
+    ],
+    answer: 1,
+    explanation: "Stres lahko povzroči višji ton glasu.",
+  },
+
+  {
+    id: 444,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kateri fiziološki znak se lahko pojavi pri laganju?",
+    options: [
+      "Zmanjšano potenje.",
+      "Požiranje sline.",
+      "Izguba zavesti.",
+      "Upočasnjen srčni utrip.",
+    ],
+    answer: 1,
+    explanation: "Požiranje sline je eden od možnih pokazateljev.",
+  },
+
+  {
+    id: 445,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj velja za najpomembnejši možni pokazatelj laganja?",
+    options: ["Drža telesa.", "Obrazni izrazi.", "Višina glasu.", "Gibi rok."],
+    answer: 1,
+    explanation: "Kratkotrajni obrazni izrazi lahko razkrijejo prava čustva.",
+  },
+
+  {
+    id: 446,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj velja za posamezne znake laganja?",
+    options: [
+      "Vsak znak dokazuje laž.",
+      "Znaki so le možni pokazatelji.",
+      "Obrazni izrazi nikoli ne pomagajo.",
+      "Potenje pomeni laganje.",
+    ],
+    answer: 1,
+    explanation: "Noben posamezen znak ni dokaz laganja.",
+  },
+
+  {
+    id: 447,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Kaj je poligraf?",
+    options: [
+      "Naprava za odkrivanje resnice.",
+      "Naprava za merjenje fizioloških odzivov.",
+      "Vrsta psihološkega testa.",
+      "Računalniški program.",
+    ],
+    answer: 1,
+    explanation: "Poligraf meri telesne odzive, ne laži.",
+  },
+
+  {
+    id: 448,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj poligraf v resnici meri?",
+    options: ["Resnico.", "Laž.", "Fiziološke spremembe.", "Spomin."],
+    answer: 2,
+    explanation: "Poligraf zazna telesne odzive na stres ali vzburjenje.",
+  },
+
+  {
+    id: 449,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kateri fiziološki odziv meri poligraf?",
+    options: ["Barvo oči.", "Krvni tlak.", "Velikost zenic.", "Reflekse."],
+    answer: 1,
+    explanation: "Krvni tlak je ena od merjenih spremenljivk.",
+  },
+
+  {
+    id: 450,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj še meri poligraf?",
+    options: [
+      "IQ posameznika.",
+      "Hitrost hoje.",
+      "Dihanje in potenje dlani.",
+      "Hitrost govora.",
+    ],
+    answer: 2,
+    explanation: "Meri hitrost dihanja, globino dihanja in potenje.",
+  },
+
+  {
+    id: 451,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Kaj vključuje predtestni intervju pri poligrafskem testiranju?",
+    options: [
+      "Le merjenje pulza.",
+      "Razlago postopka in pregled vprašanj.",
+      "Izrek sodbe.",
+      "Hipnozo.",
+    ],
+    answer: 1,
+    explanation: "Predtestni intervju pripravi osebo na test.",
+  },
+
+  {
+    id: 452,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj sledi po izvedenem poligrafskem testu?",
+    options: [
+      "Takojšnja obsodba.",
+      "Posttestna analiza rezultatov.",
+      "Hipnoza.",
+      "Prekinitev preiskave.",
+    ],
+    answer: 1,
+    explanation: "Po testu sledi analiza in dodaten pogovor.",
+  },
+
+  {
+    id: 453,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Kakšen pozitiven učinek ima lahko poligraf?",
+    options: [
+      "Vedno odkrije laž.",
+      "Odvrača storilce in spodbuja priznanja.",
+      "Nadomesti sodišče.",
+      "Odpravi stres.",
+    ],
+    answer: 1,
+    explanation: "Nekateri priznajo dejanje že zaradi pričakovanja testa.",
+  },
+
+  {
+    id: 454,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kaj je negativna stran uporabe poligrafa?",
+    options: [
+      "Povzroča izgubo spomina.",
+      "Lahko ustvari lažen občutek varnosti.",
+      "Poveča inteligentnost.",
+      "Zmanjša empatijo.",
+    ],
+    answer: 1,
+    explanation: "Ljudje lahko preveč zaupajo rezultatom poligrafa.",
+  },
+
+  {
+    id: 455,
+    category: "lazi",
+    difficulty: "hard",
+    question: "Kakšen status ima poligraf v Sloveniji?",
+    options: [
+      "Je dokaz na sodišču.",
+      "Uporablja se le v psihologiji.",
+      "Ni dokaz na sodišču.",
+      "Je obvezen pri vseh preiskavah.",
+    ],
+    answer: 2,
+    explanation: "V Sloveniji poligraf nima dokazne vrednosti.",
+  },
+
+  {
+    id: 456,
+    category: "lazi",
+    difficulty: "medium",
+    question: "Za kaj se poligraf v Sloveniji uporablja?",
+    options: [
+      "Za izrek kazni.",
+      "Kot usmerjevalno orodje pri preiskovanju.",
+      "Za psihoterapijo.",
+      "Za ocenjevanje inteligentnosti.",
+    ],
+    answer: 1,
+    explanation:
+      "Poligraf pomaga usmerjati preiskavo, ne pa dokazovati krivde.",
+  },
+
+  {
+    id: 457,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj proučuje socialna psihologija?",
+    options: [
+      "Delovanje živčnega sistema.",
+      "Kako prisotnost drugih vpliva na naše mišljenje, čustvovanje in vedenje.",
+      "Izključno osebnostne lastnosti.",
+      "Biološke osnove čustev.",
+    ],
+    answer: 1,
+    explanation:
+      "Socialna psihologija preučuje vpliv drugih ljudi na posameznika.",
+  },
+
+  {
+    id: 458,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni socialni vpliv?",
+    options: [
+      "Vpliv hormonov na vedenje.",
+      "Vpliv drugih ljudi na naše vedenje in prepričanja.",
+      "Pritisk vrstnikov v adolescenci.",
+      "Učinek množičnih medijev.",
+    ],
+    answer: 1,
+    explanation:
+      "Socialni vpliv zajema različne načine vplivanja drugih ljudi.",
+  },
+
+  {
+    id: 459,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni konformizem?",
+    options: [
+      "Sledenje ukazom avtoritete.",
+      "Prilagajanje vedenja ali mnenja skupini.",
+      "Nudenje pomoči drugim.",
+      "Oblikovanje stereotipov.",
+    ],
+    answer: 1,
+    explanation: "Konformizem pomeni usklajevanje s skupino.",
+  },
+
+  {
+    id: 460,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kdo je izvedel znameniti eksperiment o konformizmu?",
+    options: [
+      "Stanley Milgram.",
+      "Paul Ekman.",
+      "Solomon Asch.",
+      "Leon Festinger.",
+    ],
+    answer: 2,
+    explanation: "Asch je proučeval vpliv skupine na posameznika.",
+  },
+
+  {
+    id: 461,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj je pokazal Aschev eksperiment?",
+    options: [
+      "Da ljudje nikoli ne sledijo večini.",
+      "Da se ljudje pogosto prilagodijo skupini, čeprav vedo, da nima prav.",
+      "Da avtoriteta vedno vpliva na vedenje.",
+      "Da stereotipi nastanejo zaradi učenja.",
+    ],
+    answer: 1,
+    explanation: "Veliko udeležencev je sledilo napačnim odgovorom skupine.",
+  },
+
+  {
+    id: 462,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni normativni vpliv?",
+    options: [
+      "Sledimo drugim, ker mislimo, da imajo prav.",
+      "Sledimo drugim, da bi bili sprejeti.",
+      "Poslušamo avtoriteto.",
+      "Pomagamo drugim brez koristi.",
+    ],
+    answer: 1,
+    explanation: "Normativni vpliv temelji na želji po sprejetosti.",
+  },
+
+  {
+    id: 463,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni informacijski vpliv?",
+    options: [
+      "Sledimo drugim, ker verjamemo, da imajo pravilne informacije.",
+      "Prilagodimo se zaradi strahu pred kaznijo.",
+      "Sledimo družbenim normam.",
+      "Pomagamo drugim zaradi empatije.",
+    ],
+    answer: 0,
+    explanation: "Informacijski vpliv je pogost v negotovih situacijah.",
+  },
+
+  {
+    id: 464,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj so socialne norme?",
+    options: [
+      "Pravni predpisi.",
+      "Nenapisana pravila vedenja v družbi.",
+      "Osebnostne poteze.",
+      "Kazni za neprimerno vedenje.",
+    ],
+    answer: 1,
+    explanation: "Socialne norme usmerjajo naše vedenje.",
+  },
+
+  {
+    id: 465,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni skupinsko mišljenje (groupthink)?",
+    options: [
+      "Razprava z veliko idejami.",
+      "Težnja po soglasju, ki zmanjša kritično razmišljanje.",
+      "Tekmovanje med skupinami.",
+      "Povečana ustvarjalnost.",
+    ],
+    answer: 1,
+    explanation:
+      "Skupina lahko zaradi želje po enotnosti sprejema slabe odločitve.",
+  },
+
+  {
+    id: 466,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Katera posledica je značilna za skupinsko mišljenje?",
+    options: [
+      "Boljše odločanje.",
+      "Več ustvarjalnosti.",
+      "Prezrta tveganja in slabe odločitve.",
+      "Povečana empatija.",
+    ],
+    answer: 2,
+    explanation: "Groupthink zmanjšuje kakovost odločitev.",
+  },
+
+  {
+    id: 467,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni ubogljivost?",
+    options: [
+      "Prilagajanje večini.",
+      "Sledenje ukazom avtoritete.",
+      "Pomaganje drugim.",
+      "Ustvarjanje stereotipov.",
+    ],
+    answer: 1,
+    explanation: "Ubogljivost pomeni poslušanje avtoritete.",
+  },
+
+  {
+    id: 468,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kdo je proučeval ubogljivost avtoriteti?",
+    options: [
+      "Solomon Asch.",
+      "Stanley Milgram.",
+      "Leon Festinger.",
+      "Paul Ekman.",
+    ],
+    answer: 1,
+    explanation: "Milgram je raziskoval poslušnost avtoriteti.",
+  },
+
+  {
+    id: 469,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj je pokazal Milgramov eksperiment?",
+    options: [
+      "Da ljudje nikoli ne škodujejo drugim.",
+      "Da ljudje pogosto ubogajo avtoriteto tudi v škodo drugih.",
+      "Da skupine vedno sprejemajo dobre odločitve.",
+      "Da stereotipi zmanjšujejo predsodke.",
+    ],
+    answer: 1,
+    explanation: "Presenetljivo veliko ljudi je sledilo navodilom do konca.",
+  },
+
+  {
+    id: 470,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kateri dejavnik poveča ubogljivost?",
+    options: [
+      "Prisotnost neubogljivih ljudi.",
+      "Oddaljenost avtoritete.",
+      "Ugled avtoritete.",
+      "Pomanjkanje pravil.",
+    ],
+    answer: 2,
+    explanation: "Ugledna avtoriteta poveča verjetnost uboganja.",
+  },
+
+  {
+    id: 471,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj proučuje socialna kognicija?",
+    options: [
+      "Spomin.",
+      "Kako razmišljamo o drugih ljudeh.",
+      "Biološke osnove vedenja.",
+      "Delovanje čustev.",
+    ],
+    answer: 1,
+    explanation: "Socialna kognicija proučuje socialno mišljenje.",
+  },
+
+  {
+    id: 472,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni drža (attitude)?",
+    options: [
+      "Trenutno razpoloženje.",
+      "Relativno trajna pozitivna ali negativna naravnanost.",
+      "Način hoje.",
+      "Oblika stereotipa.",
+    ],
+    answer: 1,
+    explanation: "Drže vplivajo na naše vedenje in odločitve.",
+  },
+
+  {
+    id: 473,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni kognitivna disonanca?",
+    options: [
+      "Usklajenost med vedenjem in prepričanji.",
+      "Neprijetno stanje zaradi neskladja med vedenjem in prepričanji.",
+      "Nezmožnost odločanja.",
+      "Prilagajanje skupini.",
+    ],
+    answer: 1,
+    explanation: "Kognitivna disonanca povzroča psihološko napetost.",
+  },
+
+  {
+    id: 474,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kdo je razvil teorijo kognitivne disonance?",
+    options: [
+      "Stanley Milgram.",
+      "Leon Festinger.",
+      "Solomon Asch.",
+      "Gordon Allport.",
+    ],
+    answer: 1,
+    explanation: "Festinger je razložil neskladje med vedenjem in prepričanji.",
+  },
+
+  {
+    id: 475,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni socialna kategorizacija?",
+    options: [
+      "Razvrščanje ljudi v skupine.",
+      "Kaznovanje drugih.",
+      "Oblikovanje zakonov.",
+      "Pomaganje neznancem.",
+    ],
+    answer: 0,
+    explanation: "Ljudi pogosto razvrščamo v različne socialne kategorije.",
+  },
+
+  {
+    id: 476,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj so stereotipi?",
+    options: [
+      "Negativna čustva.",
+      "Poenostavljena prepričanja o skupinah ljudi.",
+      "Vrsta diskriminacije.",
+      "Oblika altruizma.",
+    ],
+    answer: 1,
+    explanation: "Stereotipi poenostavljajo informacije o skupinah.",
+  },
+
+  {
+    id: 477,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomenijo implicitne teorije osebnosti?",
+    options: [
+      "Nezavedni konflikti.",
+      "Domneve o tem, katere lastnosti se pojavljajo skupaj.",
+      "Vrsta predsodkov.",
+      "Oblika diskriminacije.",
+    ],
+    answer: 1,
+    explanation: "Ljudje sklepamo, da so določene lastnosti povezane.",
+  },
+
+  {
+    id: 478,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni atribucija?",
+    options: [
+      "Prilagajanje skupini.",
+      "Razlaga vzrokov vedenja.",
+      "Oblikovanje stereotipov.",
+      "Pomaganje drugim.",
+    ],
+    answer: 1,
+    explanation: "Atribucija pomeni pojasnjevanje vedenja.",
+  },
+
+  {
+    id: 479,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni notranja atribucija?",
+    options: [
+      "Vzrok pripišemo okoliščinam.",
+      "Vzrok pripišemo osebnosti posameznika.",
+      "Vzrok pripišemo skupini.",
+      "Vzrok pripišemo naključju.",
+    ],
+    answer: 1,
+    explanation: "Notranja atribucija poudarja osebnostne dejavnike.",
+  },
+
+  {
+    id: 480,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni temeljna atribucijska napaka?",
+    options: [
+      "Podcenjujemo vpliv osebnosti.",
+      "Precenjujemo vpliv situacije.",
+      "Precenujemo vpliv osebnosti in podcenjujemo okoliščine.",
+      "Vedno krivimo sebe.",
+    ],
+    answer: 2,
+    explanation: "Pogosto spregledamo vpliv situacijskih dejavnikov.",
+  },
+
+  {
+    id: 481,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj so predsodki?",
+    options: [
+      "Negativna stališča do določene skupine.",
+      "Neenako vedenje.",
+      "Vrsta stereotipa.",
+      "Pravne sankcije.",
+    ],
+    answer: 0,
+    explanation: "Predsodki vključujejo predvsem negativna stališča.",
+  },
+
+  {
+    id: 482,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni diskriminacija?",
+    options: [
+      "Negativno prepričanje.",
+      "Neenako obravnavanje ljudi zaradi pripadnosti skupini.",
+      "Nezavedna pristranskost.",
+      "Vrsta atribucije.",
+    ],
+    answer: 1,
+    explanation: "Diskriminacija pomeni vedenje, ne le stališče.",
+  },
+
+  {
+    id: 483,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni teorija grešnega kozla?",
+    options: [
+      "Prevzemanje odgovornosti.",
+      "Usmerjanje frustracije na šibkejšo skupino.",
+      "Oblikovanje altruizma.",
+      "Sledenje avtoriteti.",
+    ],
+    answer: 1,
+    explanation: "Ljudje lahko za svoje težave krivijo druge skupine.",
+  },
+
+  {
+    id: 484,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni prosocialno vedenje?",
+    options: [
+      "Vedenje za osebno korist.",
+      "Vedenje, namenjeno pomoči drugim.",
+      "Sledenje skupini.",
+      "Oblikovanje stereotipov.",
+    ],
+    answer: 1,
+    explanation: "Prosocialno vedenje vključuje pomoč drugim.",
+  },
+
+  {
+    id: 485,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj pomeni altruizem?",
+    options: [
+      "Pomoč drugim brez pričakovane koristi.",
+      "Pomoč zaradi nagrade.",
+      "Sledenje pravilom.",
+      "Prilagajanje večini.",
+    ],
+    answer: 0,
+    explanation: "Altruistična pomoč je nesebična.",
+  },
+
+  {
+    id: 486,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni učinek opazovalca (bystander effect)?",
+    options: [
+      "Več ljudi pomeni več pomoči.",
+      "Prisotnost drugih zmanjša verjetnost pomoči.",
+      "Ljudje vedno pomagajo.",
+      "Pomoč je odvisna od inteligentnosti.",
+    ],
+    answer: 1,
+    explanation: "Odgovornost se razprši med prisotne.",
+  },
+
+  {
+    id: 487,
+    category: "socialna",
+    difficulty: "hard",
+    question: "Kaj pomeni razpršitev odgovornosti?",
+    options: [
+      "Prevzemanje vodstva.",
+      "Prepričanje, da bo pomagal nekdo drug.",
+      "Večja empatija.",
+      "Večja ubogljivost.",
+    ],
+    answer: 1,
+    explanation: "Prisotnost drugih zmanjša občutek osebne odgovornosti.",
+  },
+
+  {
+    id: 488,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj je prvi korak nudenja pomoči?",
+    options: [
+      "Akcija.",
+      "Prevzem odgovornosti.",
+      "Opaziti dogodek.",
+      "Načrtovanje pomoči.",
+    ],
+    answer: 2,
+    explanation: "Najprej moramo sploh opaziti, da se nekaj dogaja.",
+  },
+
+  {
+    id: 489,
+    category: "socialna",
+    difficulty: "medium",
+    question: "Kaj vpliva na medosebno privlačnost?",
+    options: [
+      "Podobnost interesov.",
+      "Bližina.",
+      "Vzajemna naklonjenost.",
+      "Vse našteto.",
+    ],
+    answer: 3,
+    explanation: "Privlačnost oblikuje več različnih dejavnikov.",
+  },
+
+  {
+    id: 490,
+    category: "socialna",
+    difficulty: "hard",
+    question:
+      "Kateri dejavnik medosebne privlačnosti podpirajo raziskave najmočneje?",
+    options: [
+      "Nasprotja se privlačijo.",
+      "Podobnost vrednot in interesov.",
+      "Naključje.",
+      "Tekmovalnost.",
+    ],
+    answer: 1,
+    explanation: "Podobnost je eden najmočnejših dejavnikov privlačnosti.",
+  },
+
+  {
+    id: 491,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj proučuje psihopatologija?",
+    options: [
+      "Izključno zdravljenje duševnih motenj.",
+      "Duševne motnje, njihove vzroke, simptome in diagnosticiranje.",
+      "Le delovanje možganov.",
+      "Osebnostne lastnosti zdravih ljudi.",
+    ],
+    answer: 1,
+    explanation:
+      "Psihopatologija proučuje duševne motnje in njihovo prepoznavanje.",
+  },
+
+  {
+    id: 492,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj velja za normalnost v psihopatologiji?",
+    options: [
+      "Obstaja enotna definicija.",
+      "Normalnost je vedno statistično določena.",
+      "Normalnost predstavlja kontinuum med zdravjem in motnjo.",
+      "Normalnost pomeni odsotnost težav.",
+    ],
+    answer: 2,
+    explanation: "Normalnost ni vse ali nič, ampak kontinuum.",
+  },
+
+  {
+    id: 493,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni statistični kriterij normalnosti?",
+    options: [
+      "Normalno je tisto, kar je značilno za večino ljudi.",
+      "Normalno je vse, kar ni bolezen.",
+      "Normalno je tisto, kar določi psiholog.",
+      "Normalno je družbeno sprejemljivo vedenje.",
+    ],
+    answer: 0,
+    explanation: "Statistični kriterij temelji na pogostosti pojava.",
+  },
+
+  {
+    id: 494,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Katera trditev o statističnem kriteriju je pravilna?",
+    options: [
+      "Redkost vedno pomeni motnjo.",
+      "Vsaka posebnost je bolezen.",
+      "Redkost sama po sebi ne pomeni bolezni.",
+      "Zelo visoka inteligentnost je motnja.",
+    ],
+    answer: 2,
+    explanation: "Redki pojavi niso nujno patološki.",
+  },
+
+  {
+    id: 495,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni socialno delovanje kot merilo normalnosti?",
+    options: [
+      "Število prijateljev.",
+      "Uspešno delovanje doma, v šoli, službi in odnosih.",
+      "Priljubljenost.",
+      "Visoko samospoštovanje.",
+    ],
+    answer: 1,
+    explanation: "Pomembno je učinkovito delovanje v vsakdanjem življenju.",
+  },
+
+  {
+    id: 496,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni samozaznavanje kot merilo normalnosti?",
+    options: [
+      "Posameznik zaznava lastno stisko in spremembe.",
+      "Drugi opazijo njegove težave.",
+      "Visoko samozaupanje.",
+      "Dobra samopodoba.",
+    ],
+    answer: 0,
+    explanation: "Pomembno je, ali oseba sama prepoznava težave.",
+  },
+
+  {
+    id: 497,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni kratica ICD (MKB)?",
+    options: [
+      "Mednarodna klasifikacija bolezni.",
+      "Mednarodni diagnostični priročnik.",
+      "Klinična klasifikacija bolezni.",
+      "Diagnostični priročnik psihologije.",
+    ],
+    answer: 0,
+    explanation: "ICD je mednarodna klasifikacija bolezni.",
+  },
+
+  {
+    id: 498,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Katera organizacija je razvila ICD?",
+    options: ["APA.", "UNICEF.", "WHO.", "EU."],
+    answer: 2,
+    explanation: "ICD je razvila Svetovna zdravstvena organizacija.",
+  },
+
+  {
+    id: 499,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni kratica DSM?",
+    options: [
+      "Diagnostični in statistični priročnik duševnih motenj.",
+      "Diagnostični sistem medicine.",
+      "Duševni statistični model.",
+      "Diagnostični priročnik simptomov.",
+    ],
+    answer: 0,
+    explanation: "DSM se uporablja predvsem v ZDA in raziskovanju.",
+  },
+
+  {
+    id: 500,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj lahko psiholog uporablja pri postavljanju diagnoze?",
+    options: [
+      "Intervju, opazovanje in psihološke teste.",
+      "Le laboratorijske preiskave.",
+      "Samo opazovanje.",
+      "Le vprašalnike.",
+    ],
+    answer: 0,
+    explanation: "Diagnoza temelji na več virih informacij.",
+  },
+
+  {
+    id: 501,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj je agnozija?",
+    options: [
+      "Izguba spomina.",
+      "Nezmožnost prepoznavanja predmetov kljub delujočim čutilom.",
+      "Vrsta blodnje.",
+      "Motnja zavesti.",
+    ],
+    answer: 1,
+    explanation: "Oseba zaznava predmet, vendar ga ne prepozna.",
+  },
+
+  {
+    id: 502,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni konfabulacija?",
+    options: [
+      "Namerno laganje.",
+      "Zapolnjevanje vrzeli v spominu z izmišljenimi podatki.",
+      "Izguba spomina.",
+      "Pretirano spominjanje.",
+    ],
+    answer: 1,
+    explanation: "Oseba svojim spominom običajno verjame.",
+  },
+
+  {
+    id: 503,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni perseveracija?",
+    options: [
+      "Počasno mišljenje.",
+      "Vztrajanje pri isti temi ali odgovoru.",
+      "Pretirano hitro mišljenje.",
+      "Izguba logike.",
+    ],
+    answer: 1,
+    explanation: "Perseveracija pomeni ponavljanje iste vsebine.",
+  },
+
+  {
+    id: 504,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni inkoherentnost mišljenja?",
+    options: [
+      "Hitro mišljenje.",
+      "Nepovezano mišljenje.",
+      "Ponavljanje misli.",
+      "Pretirana natančnost.",
+    ],
+    answer: 1,
+    explanation: "Misli izgubijo logično povezanost.",
+  },
+
+  {
+    id: 505,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj so blodnje?",
+    options: [
+      "Vsiljive misli.",
+      "Lažna prepričanja, ki jih oseba ne spremeni.",
+      "Napačne zaznave.",
+      "Nočne more.",
+    ],
+    answer: 1,
+    explanation: "Blodnje ostajajo kljub dokazom.",
+  },
+
+  {
+    id: 506,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni prevalentna misel?",
+    options: [
+      "Lažno prepričanje.",
+      "Pretirano poudarjena ideja.",
+      "Izguba misli.",
+      "Vsiljiva misel.",
+    ],
+    answer: 1,
+    explanation: "Prevalentne misli prevladujejo v posameznikovem mišljenju.",
+  },
+
+  {
+    id: 507,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni sopor?",
+    options: [
+      "Popolna neodzivnost.",
+      "Močno zmanjšana odzivnost.",
+      "Rahla omotičnost.",
+      "Povečana budnost.",
+    ],
+    answer: 1,
+    explanation: "Osebo prebudimo le z močnimi dražljaji.",
+  },
+
+  {
+    id: 508,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni koma?",
+    options: [
+      "Zaspanost.",
+      "Popolna neodzivnost.",
+      "Rahla motenost zavesti.",
+      "Zmedenost.",
+    ],
+    answer: 1,
+    explanation: "Pri komi oseba ne reagira na dražljaje.",
+  },
+
+  {
+    id: 509,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni paratimija?",
+    options: [
+      "Čustvena otopelost.",
+      "Neustrezno čustvo glede na situacijo.",
+      "Pretirana žalost.",
+      "Hitre spremembe čustev.",
+    ],
+    answer: 1,
+    explanation: "Čustvo ni skladno s situacijo.",
+  },
+
+  {
+    id: 510,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni paramimija?",
+    options: [
+      "Neustrezen izraz čustev.",
+      "Pretirana sreča.",
+      "Čustvena labilnost.",
+      "Nezmožnost čustvovanja.",
+    ],
+    answer: 0,
+    explanation: "Izraz čustev ni skladen z dejanskim doživljanjem.",
+  },
+
+  {
+    id: 511,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni apatija?",
+    options: [
+      "Pretirana čustvenost.",
+      "Pomanjkanje čustvenega odzivanja.",
+      "Tesnobnost.",
+      "Razdražljivost.",
+    ],
+    answer: 1,
+    explanation: "Apatija pomeni čustveno brezbrižnost.",
+  },
+
+  {
+    id: 512,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni čustvena labilnost?",
+    options: [
+      "Nezmožnost izražanja čustev.",
+      "Hitre spremembe čustev.",
+      "Stalna žalost.",
+      "Evforija.",
+    ],
+    answer: 1,
+    explanation: "Razpoloženje se hitro spreminja.",
+  },
+
+  {
+    id: 513,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni delirij?",
+    options: [
+      "Postopno propadanje možganov.",
+      "Akutno stanje zmedenosti in motene zavesti.",
+      "Trajna osebnostna sprememba.",
+      "Vrsta blodnje.",
+    ],
+    answer: 1,
+    explanation: "Delirij nastopi nenadno.",
+  },
+
+  {
+    id: 514,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Katera razlika med delirijem in demenco je pravilna?",
+    options: [
+      "Demenca nastopi hitreje.",
+      "Delirij je običajno postopen.",
+      "Delirij nastopi nenadno, demenca postopoma.",
+      "Pri obeh je zavest vedno ohranjena.",
+    ],
+    answer: 2,
+    explanation: "To je ena najpomembnejših razlik.",
+  },
+
+  {
+    id: 515,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj je demenca?",
+    options: [
+      "Akutna zmedenost.",
+      "Postopen proces propadanja možganskih funkcij.",
+      "Motnja spanja.",
+      "Motnja hranjenja.",
+    ],
+    answer: 1,
+    explanation: "Demenca vpliva na spomin, presojo in orientacijo.",
+  },
+
+  {
+    id: 516,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj je značilno za motnje avtističnega spektra?",
+    options: [
+      "Halucinacije.",
+      "Težave v socialni komunikaciji in omejeni interesi.",
+      "Blodnje.",
+      "Panični napadi.",
+    ],
+    answer: 1,
+    explanation: "Gre za razvojno motnjo z značilnimi socialnimi težavami.",
+  },
+
+  {
+    id: 517,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Katera trditev o shizofreniji je pravilna?",
+    options: [
+      "Gre za dvojno osebnost.",
+      "Večina oseb s shizofrenijo je nasilnih.",
+      "Shizofrenija ni isto kot dvojna osebnost.",
+      "Vedno se popolnoma pozdravi.",
+    ],
+    answer: 2,
+    explanation: "Gre za pogost mit o shizofreniji.",
+  },
+
+  {
+    id: 518,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kateri simptom je najpogostejša halucinacija pri shizofreniji?",
+    options: ["Vidna.", "Okusna.", "Slušna.", "Vonjalna."],
+    answer: 2,
+    explanation: "Najpogosteje osebe slišijo glasove.",
+  },
+
+  {
+    id: 519,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kako pomagamo psihotični osebi?",
+    options: [
+      "Se prepiramo o blodnjah.",
+      "Govorimo mirno in zmanjšamo stres.",
+      "Pokažemo avtoriteto.",
+      "Ignoriramo njene težave.",
+    ],
+    answer: 1,
+    explanation: "Pomemben je miren in neogrožujoč pristop.",
+  },
+
+  {
+    id: 520,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Koliko časa morajo trajati simptomi za diagnozo depresije?",
+    options: ["3 dni.", "1 teden.", "Najmanj 2 tedna.", "1 mesec."],
+    answer: 2,
+    explanation: "Dva tedna sta pomembno diagnostično merilo.",
+  },
+
+  {
+    id: 521,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni anhedonija?",
+    options: [
+      "Pretirana sreča.",
+      "Nezmožnost občutenja veselja.",
+      "Nespečnost.",
+      "Močan strah.",
+    ],
+    answer: 1,
+    explanation: "Anhedonija je pogost simptom depresije.",
+  },
+
+  {
+    id: 522,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj je značilno za manijo?",
+    options: [
+      "Žalost in utrujenost.",
+      "Povečana energija in hitre misli.",
+      "Panični napadi.",
+      "Izguba zavesti.",
+    ],
+    answer: 1,
+    explanation: "Manija vključuje pretirano aktivnost in optimizem.",
+  },
+
+  {
+    id: 523,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj velja glede pogovora o samomoru?",
+    options: [
+      "O njem ne smemo spraševati.",
+      "Neposredno vprašanje poveča tveganje.",
+      "O njem lahko vprašamo neposredno.",
+      "Pogovor vedno poslabša stanje.",
+    ],
+    answer: 2,
+    explanation: "Neposreden pogovor ne poveča tveganja.",
+  },
+
+  {
+    id: 524,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj je značilno za panično motnjo?",
+    options: [
+      "Kronična žalost.",
+      "Nenadni panični napadi.",
+      "Obsesije.",
+      "Blodnje.",
+    ],
+    answer: 1,
+    explanation: "Panični napadi se pojavijo nenadoma.",
+  },
+
+  {
+    id: 525,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj je značilno za socialno fobijo?",
+    options: [
+      "Strah pred višino.",
+      "Strah pred negativno oceno drugih.",
+      "Strah pred krvjo.",
+      "Strah pred temo.",
+    ],
+    answer: 1,
+    explanation: "Gre za strah pred družbenimi situacijami.",
+  },
+
+  {
+    id: 526,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj je glavni namen kompulzij pri OKM?",
+    options: [
+      "Povečanje samozavesti.",
+      "Zmanjšanje tesnobe.",
+      "Izboljšanje spomina.",
+      "Pridobivanje pozornosti.",
+    ],
+    answer: 1,
+    explanation: "Kompulzije začasno zmanjšajo tesnobo.",
+  },
+
+  {
+    id: 527,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni PTSM?",
+    options: [
+      "Motnjo po travmatičnem dogodku.",
+      "Motnjo hranjenja.",
+      "Motnjo spanja.",
+      "Osebnostno motnjo.",
+    ],
+    answer: 0,
+    explanation: "PTSM se razvije po izpostavljenosti travmi.",
+  },
+
+  {
+    id: 528,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kateri simptom je značilen za PTSM?",
+    options: ["Evforija.", "Podoživljanje travme.", "Halucinacije.", "Manija."],
+    answer: 1,
+    explanation: "Travmatični dogodki se lahko ponovno vsiljujejo.",
+  },
+
+  {
+    id: 529,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj je značilno za anoreksijo nervozo?",
+    options: [
+      "Prenajedanje.",
+      "Strah pred pridobivanjem telesne mase.",
+      "Halucinacije.",
+      "Obsesije.",
+    ],
+    answer: 1,
+    explanation: "Prisoten je močan strah pred debelostjo.",
+  },
+
+  {
+    id: 530,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj je značilno za bulimijo nervozo?",
+    options: [
+      "Omejevanje hrane brez prenajedanja.",
+      "Prenajedanje in kompenzacijska vedenja.",
+      "Halucinacije.",
+      "Izguba zavesti.",
+    ],
+    answer: 1,
+    explanation: "Pogosto se pojavita bruhanje ali uporaba odvajal.",
+  },
+
+  {
+    id: 531,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj pomeni disociativna motnja identitete?",
+    options: [
+      "Prisotnost dveh ali več identitetnih stanj.",
+      "Shizofrenijo.",
+      "Demenco.",
+      "Anksioznost.",
+    ],
+    answer: 0,
+    explanation: "Prej se je imenovala multipla osebnostna motnja.",
+  },
+
+  {
+    id: 532,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni toleranca pri odvisnosti?",
+    options: [
+      "Prenašanje neprijetnosti.",
+      "Za enak učinek potrebujemo večjo količino snovi.",
+      "Prenehanje uporabe.",
+      "Izguba nadzora.",
+    ],
+    answer: 1,
+    explanation: "Toleranca pomeni zmanjšano občutljivost na snov.",
+  },
+
+  {
+    id: 533,
+    category: "psihopatologija",
+    difficulty: "medium",
+    question: "Kaj pomeni odtegnitev?",
+    options: [
+      "Prva uporaba snovi.",
+      "Neprijetni simptomi ob prenehanju uporabe.",
+      "Izguba spomina.",
+      "Prenajedanje.",
+    ],
+    answer: 1,
+    explanation: "Odtegnitveni simptomi se pojavijo po prekinitvi.",
+  },
+
+  {
+    id: 534,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj je značilno za antisocialno osebnostno motnjo?",
+    options: [
+      "Pretirana tesnoba.",
+      "Kršenje pravil in pomanjkanje empatije.",
+      "Močna žalost.",
+      "Ponavljajoče preverjanje.",
+    ],
+    answer: 1,
+    explanation: "Pogosto jo povezujemo s psihopatijo.",
+  },
+
+  {
+    id: 535,
+    category: "psihopatologija",
+    difficulty: "hard",
+    question: "Kaj je značilno za paranoidno osebnostno motnjo?",
+    options: [
+      "Evforija.",
+      "Nezaupanje in sumničavost.",
+      "Prenajedanje.",
+      "Izguba zavesti.",
+    ],
+    answer: 1,
+    explanation: "Posamezniki pogosto doživljajo občutek ogroženosti.",
+  },
+
+  {
+    id: 536,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kaj najbolje opisuje inteligentnost?",
+    options: [
+      "Sposobnost pomnjenja podatkov.",
+      "Sposobnost učinkovitega mišljenja, učenja in prilagajanja okolju.",
+      "Sposobnost hitrega računanja.",
+      "Prirojena nadarjenost.",
+    ],
+    answer: 1,
+    explanation:
+      "To je splošna definicija inteligentnosti, ki zajema mišljenje, učenje in prilagajanje.",
+  },
+
+  {
+    id: 537,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question:
+      "Kateri psiholog je inteligentnost povezoval z mišljenjem, presojanjem, spominom in posploševanjem?",
+    options: [
+      "David Wechsler.",
+      "William Stern.",
+      "Alfred Binet.",
+      "Hans Jürgen Eysenck.",
+    ],
+    answer: 2,
+    explanation:
+      "Binet je inteligentnost opredelil kot skupek več miselnih sposobnosti.",
+  },
+
+  {
+    id: 538,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question:
+      "Kdo je inteligentnost opredelil kot sposobnost prilagajanja novim življenjskim nalogam?",
+    options: [
+      "William Stern.",
+      "Charles Spearman.",
+      "Alfred Binet.",
+      "David Wechsler.",
+    ],
+    answer: 0,
+    explanation:
+      "Stern je poudarjal prilagajanje in smotrno uporabo miselnih sredstev.",
+  },
+
+  {
+    id: 539,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question:
+      "Kdo je inteligentnost opredelil kot globalno sposobnost ravnati smotrno in razumno?",
+    options: [
+      "Alfred Binet.",
+      "David Wechsler.",
+      "Hans Eysenck.",
+      "John Horn.",
+    ],
+    answer: 1,
+    explanation:
+      "Wechslerjeva definicija poudarja učinkovito obravnavo okolja.",
+  },
+
+  {
+    id: 540,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question:
+      "Kdo je inteligentnost povezoval s prenosom informacij skozi možgansko skorjo?",
+    options: [
+      "Hans Jürgen Eysenck.",
+      "William Stern.",
+      "David Wechsler.",
+      "Charles Spearman.",
+    ],
+    answer: 0,
+    explanation: "Eysenck je poudarjal biološko osnovo inteligentnosti.",
+  },
+
+  {
+    id: 541,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kaj pomeni Spearmanov g-faktor?",
+    options: [
+      "Posebna matematična sposobnost.",
+      "Splošni faktor inteligentnosti.",
+      "Pridobljeno znanje.",
+      "Socialna inteligentnost.",
+    ],
+    answer: 1,
+    explanation: "g-faktor predstavlja splošno inteligentnost.",
+  },
+
+  {
+    id: 542,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Po Spearmanu vsaka naloga zahteva:",
+    options: [
+      "Le g-faktor.",
+      "Le specifične sposobnosti.",
+      "g-faktor in specifične sposobnosti.",
+      "Fluidno inteligentnost.",
+    ],
+    answer: 2,
+    explanation:
+      "Pri reševanju nalog sodelujeta splošna in specifična inteligentnost.",
+  },
+
+  {
+    id: 543,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kaj pomeni fluidna inteligentnost?",
+    options: [
+      "Znanje, pridobljeno s šolanjem.",
+      "Sposobnost reševanja novih problemov.",
+      "Besedni zaklad.",
+      "Dolgoročni spomin.",
+    ],
+    answer: 1,
+    explanation: "Fluidna inteligentnost je manj odvisna od izkušenj.",
+  },
+
+  {
+    id: 544,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Katera značilnost najbolje opisuje fluidno inteligentnost?",
+    options: [
+      "Temelji na šolanju.",
+      "Temelji na izkušnjah.",
+      "Vključuje logično mišljenje in prepoznavanje vzorcev.",
+      "Odvisna je od kulture.",
+    ],
+    answer: 2,
+    explanation: "Fluidna inteligentnost omogoča reševanje novih nalog.",
+  },
+
+  {
+    id: 545,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kaj pomeni kristalizirana inteligentnost?",
+    options: [
+      "Biološko pogojena sposobnost.",
+      "Sposobnost reševanja novih ugank.",
+      "Znanje in izkušnje, pridobljene skozi življenje.",
+      "Hitrost procesiranja informacij.",
+    ],
+    answer: 2,
+    explanation: "Kristalizirana inteligentnost temelji na učenju.",
+  },
+
+  {
+    id: 546,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question:
+      "Kateri dejavnik najbolj vpliva na kristalizirano inteligentnost?",
+    options: ["Šolanje in kultura.", "Dednost.", "Hormoni.", "Spanje."],
+    answer: 0,
+    explanation: "Na kristalizirano inteligentnost močno vplivajo izkušnje.",
+  },
+
+  {
+    id: 547,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Zakaj merimo inteligentnost?",
+    options: [
+      "Za šolsko svetovanje in poklicno usmerjanje.",
+      "Samo za raziskovanje.",
+      "Le za klinično diagnostiko.",
+      "Zgolj zaradi primerjanja ljudi.",
+    ],
+    answer: 0,
+    explanation: "Merjenje ima več praktičnih namenov.",
+  },
+
+  {
+    id: 548,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kaj pomeni standardizacija testa?",
+    options: [
+      "Primerjavo z vrstniki.",
+      "Enake pogoje za vse udeležence.",
+      "Merjenje inteligentnosti.",
+      "Stabilnost rezultatov.",
+    ],
+    answer: 1,
+    explanation: "Vsi rešujejo test pod enakimi pogoji.",
+  },
+
+  {
+    id: 549,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kaj pomenijo norme pri psiholoških testih?",
+    options: [
+      "Merijo veljavnost testa.",
+      "Omogočajo primerjavo z vrstniki.",
+      "Določajo čas reševanja.",
+      "Povečujejo zanesljivost.",
+    ],
+    answer: 1,
+    explanation: "Norme omogočajo interpretacijo rezultatov.",
+  },
+
+  {
+    id: 550,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kaj pomeni IQ?",
+    options: [
+      "Indeks kakovosti.",
+      "Inteligenčni količnik.",
+      "Indeks kvocienta.",
+      "Integrirana kvota.",
+    ],
+    answer: 1,
+    explanation: "IQ pomeni inteligenčni količnik.",
+  },
+
+  {
+    id: 551,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kaj pomeni, da je IQ relativna mera?",
+    options: [
+      "Ne spreminja se.",
+      "Primerja posameznika s povprečjem enako starih oseb.",
+      "Velja le za otroke.",
+      "Meri le dednost.",
+    ],
+    answer: 1,
+    explanation: "IQ nima absolutnega pomena brez primerjave.",
+  },
+
+  {
+    id: 552,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kolikšen je približen povprečni IQ?",
+    options: ["70", "85", "100", "130"],
+    answer: 2,
+    explanation: "Povprečni IQ znaša približno 100.",
+  },
+
+  {
+    id: 553,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Približno kolikšen delež ljudi ima IQ med 85 in 115?",
+    options: ["50 %", "68 %", "80 %", "95 %"],
+    answer: 1,
+    explanation: "Približno 68 % ljudi dosega rezultate v tem območju.",
+  },
+
+  {
+    id: 554,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kaj velja za motnjo v duševnem razvoju?",
+    options: [
+      "Vedno nastane po 18. letu.",
+      "Pomeni pomembno znižanje intelektualnega delovanja pred 18. letom.",
+      "Je posledica depresije.",
+      "Pomeni le učne težave.",
+    ],
+    answer: 1,
+    explanation: "Prisotna mora biti pred odraslostjo.",
+  },
+
+  {
+    id: 555,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question:
+      "Kateri pogoj mora biti poleg nižjega IQ izpolnjen pri motnji v duševnem razvoju?",
+    options: [
+      "Prisotnost halucinacij.",
+      "Omejitve prilagoditvenih sposobnosti.",
+      "Prisotnost depresije.",
+      "Slab učni uspeh.",
+    ],
+    answer: 1,
+    explanation: "Pomembne so tudi težave pri vsakodnevnem prilagajanju.",
+  },
+
+  {
+    id: 556,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kateri IQ ustreza blagi motnji v duševnem razvoju?",
+    options: ["21–35", "36–50", "51–70", "Pod 20"],
+    answer: 2,
+    explanation: "Blaga motnja zajema IQ med 51 in 70.",
+  },
+
+  {
+    id: 557,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kateri IQ ustreza zmerni motnji v duševnem razvoju?",
+    options: ["36–50", "51–70", "21–35", "Pod 20"],
+    answer: 0,
+    explanation: "Zmerna stopnja zajema IQ od 36 do 50.",
+  },
+
+  {
+    id: 558,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kateri IQ ustreza hudi motnji v duševnem razvoju?",
+    options: ["Pod 20", "21–35", "36–50", "51–70"],
+    answer: 1,
+    explanation: "Huda stopnja zajema IQ med 21 in 35.",
+  },
+
+  {
+    id: 559,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kateri IQ ustreza globoki motnji v duševnem razvoju?",
+    options: ["21–35", "36–50", "51–70", "Pod 20"],
+    answer: 3,
+    explanation: "Globoka stopnja pomeni IQ pod 20.",
+  },
+
+  {
+    id: 560,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question:
+      "Kateri biološki dejavnik lahko povzroči motnjo v duševnem razvoju?",
+    options: [
+      "Downov sindrom.",
+      "Stres.",
+      "Pomanjkanje motivacije.",
+      "Nespečnost.",
+    ],
+    answer: 0,
+    explanation: "Downov sindrom je eden najpogostejših bioloških vzrokov.",
+  },
+
+  {
+    id: 561,
+    category: "inteligentnost",
+    difficulty: "medium",
+    question: "Kaj pomeni nadarjenost?",
+    options: [
+      "IQ pod 70.",
+      "Izrazito nadpovprečne intelektualne sposobnosti.",
+      "Uspešnost pri vseh predmetih.",
+      "Dobra socialna prilagojenost.",
+    ],
+    answer: 1,
+    explanation: "Nadarjenost pomeni visoke intelektualne sposobnosti.",
+  },
+
+  {
+    id: 562,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Približno kolikšen delež populacije velja za nadarjenega?",
+    options: ["1 %", "2 %", "5 %", "10 %"],
+    answer: 1,
+    explanation: "Približno 2 % populacije dosega kriterij nadarjenosti.",
+  },
+
+  {
+    id: 563,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kateri IQ je običajno povezan z nadarjenostjo?",
+    options: ["Nad 100", "Nad 115", "Nad 130", "Nad 145"],
+    answer: 2,
+    explanation: "Za nadarjenost se pogosto uporablja meja IQ nad 130.",
+  },
+
+  {
+    id: 564,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Katera trditev o visokem IQ je pravilna?",
+    options: [
+      "Vedno pomeni življenjski uspeh.",
+      "Vedno pomeni čustveno zrelost.",
+      "Ne zagotavlja nujno uspeha ali socialne prilagojenosti.",
+      "Vedno pomeni dobro samopodobo.",
+    ],
+    answer: 2,
+    explanation: "Visok IQ sam po sebi ne zagotavlja uspeha.",
+  },
+
+  {
+    id: 565,
+    category: "inteligentnost",
+    difficulty: "hard",
+    question: "Kaj pomeni viktimizacija?",
+    options: [
+      "Večja verjetnost, da posameznik postane žrtev zlorab.",
+      "Povečana agresivnost.",
+      "Izguba spomina.",
+      "Večja inteligentnost.",
+    ],
+    answer: 0,
+    explanation:
+      "Viktimizacija pomeni večjo izpostavljenost izkoriščanju in zlorabam.",
+  },
 ];
 
 QUESTIONS.forEach((q) => {
