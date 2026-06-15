@@ -28,6 +28,10 @@
 .modal-content {
   width: 90%;
   max-width: 850px;
+  max-height: 90vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 
   background: rgba(20, 33, 61, 0.95);
 
@@ -39,7 +43,7 @@
 
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
 
-  backdrop-filter: blur(18px);
+  background: #16213d;
 
   transform: translateY(12px) scale(0.98);
 
@@ -48,6 +52,10 @@
   transition:
     transform 0.2s ease,
     opacity 0.2s ease;
+}
+
+.modal-content::-webkit-scrollbar {
+  display: none;
 }
 
 .modal-overlay.active .modal-content {
@@ -241,18 +249,45 @@
 
 @media (max-width: 768px) {
   .modal-content {
-    padding: 25px;
+    width: calc(100% - 24px);
+    max-height: 90vh;
+
+    padding: 20px;
+
+    border-radius: 24px;
   }
 
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .categories-grid span {
+    padding: 6px 4px;
+    margin: 5px 0px;
+
+    font-size: 0.9rem;
+
+    border-radius: 16px;
+  }
+
+  .categories-grid span::before {
+    width: 16px;
+    height: 16px;
+
+    font-size: 0.9rem;
+
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
   .categories-grid {
     grid-template-columns: 1fr;
   }
 
-  .modal-actions {
-    flex-direction: column;
-  }
-
-  .modal-actions button {
-    width: 100%;
+  .categories-grid span {
+    padding: 14px 18px;
+    font-size: 1rem;
   }
 }
