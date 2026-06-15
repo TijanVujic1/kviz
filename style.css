@@ -829,7 +829,7 @@ body {
   color: #22c55e;
 }
 
-/* ===== DASHBOARD MOBILE FIX ===== */
+/* ===== DASHBOARD MOBILE FIX ====== */
 
 @media (max-width: 768px) {
   .dashboard {
