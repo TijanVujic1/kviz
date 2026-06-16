@@ -125,23 +125,33 @@
       <!-- Glavni kviz -->
       <div class="quiz-screen hidden" id="quizScreen">
         <div class="quiz-header">
-          <div class="quiz-info">
-            <div class="info-box">
-              <span>Vprašanje</span>
-              <strong id="questionCounter"> 1 / 30 </strong>
+          <div class="quiz-top-row">
+            <div class="quiz-info">
+              <div class="info-box">
+                <span>Vprašanje</span>
+                <strong id="questionCounter"> 1 / 30 </strong>
+              </div>
+
+              <div class="info-box">
+                <span>Točke</span>
+                <strong id="score"> 0 </strong>
+              </div>
+
+              <div class="info-box">
+                <span>Kategorija</span>
+                <strong id="categoryName"> Osnove </strong>
+              </div>
             </div>
 
-            <div class="info-box">
-              <span>Točke</span>
-              <strong id="score"> 0 </strong>
-            </div>
-
-            <div class="info-box">
-              <span>Kategorija</span>
-              <strong id="categoryName"> Osnove </strong>
+            <div class="header-actions">
+              <button id="favoriteBtn" class="action-btn favorite-btn">
+                <i class="fa-regular fa-star"></i>
+              </button>
+              <button id="quitBtn" class="action-btn quit-btn">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
             </div>
           </div>
-
           <div class="progress-container">
             <div class="progress-bar">
               <div class="progress-fill" id="progressFill"></div>
@@ -160,10 +170,6 @@
 
           <div class="explanation hidden" id="explanation">
             <!-- Razlaga -->
-          </div>
-          <div class="quiz-actions">
-            <button id="quitBtn">⬅ Končaj kviz</button>
-            <button id="favoriteBtn">☆ Označi vprašanje</button>
           </div>
           <button class="next-btn hidden" id="nextBtn">
             Naslednje vprašanje

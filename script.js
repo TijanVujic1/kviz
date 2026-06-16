@@ -7,6 +7,7 @@ const quizScreen = document.getElementById("quizScreen");
 const resultScreen = document.getElementById("resultScreen");
 
 const startBtn = document.getElementById("startBtn");
+const backHomeBtn = document.querySelector(".back-home");
 
 const studyModeBtn = document.getElementById("studyModeBtn");
 const examModeBtn = document.getElementById("examModeBtn");
@@ -180,6 +181,10 @@ function startQuiz() {
 
   quizScreen.classList.remove("hidden");
 
+  if (backHomeBtn) {
+    backHomeBtn.style.display = "none";
+  }
+
   showQuestion();
 }
 
@@ -346,7 +351,10 @@ function selectAnswer(button, selectedIndex) {
   // GUMB NASLEDNJE
   // ==========================
 
-  nextBtn.classList.remove("hidden");
+  setTimeout(() => {
+    nextBtn.classList.remove("hidden");
+    nextBtn.classList.add("show");
+  }, 100);
 }
 
 // ===============================
@@ -531,6 +539,10 @@ homeBtn.addEventListener("click", () => {
   resultScreen.classList.add("hidden");
 
   startScreen.classList.remove("hidden");
+
+  if (backHomeBtn) {
+    backHomeBtn.style.display = "flex";
+  }
 });
 
 // ===============================
@@ -545,6 +557,7 @@ function resetQuestion() {
   explanation.classList.add("hidden");
 
   nextBtn.classList.add("hidden");
+  nextBtn.classList.remove("show");
 
   optionsContainer.innerHTML = "";
 
@@ -578,10 +591,18 @@ function updateFavoriteButton() {
 
   if (!q) return;
 
+  const icon = favoriteBtn.querySelector("i");
+
   if (favorites.includes(getQuestionKey(q))) {
-    favoriteBtn.textContent = "⭐ Označeno";
+    favoriteBtn.classList.add("active");
+
+    icon.classList.remove("fa-regular");
+    icon.classList.add("fa-solid");
   } else {
-    favoriteBtn.textContent = "☆ Označi vprašanje";
+    favoriteBtn.classList.remove("active");
+
+    icon.classList.remove("fa-solid");
+    icon.classList.add("fa-regular");
   }
 }
 
@@ -613,6 +634,10 @@ quitBtn.addEventListener("click", () => {
   resultScreen.classList.add("hidden");
 
   startScreen.classList.remove("hidden");
+
+  if (backHomeBtn) {
+    backHomeBtn.style.display = "flex";
+  }
 });
 
 const categoriesModal = document.getElementById("categoriesModal");

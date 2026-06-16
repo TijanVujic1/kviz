@@ -211,10 +211,104 @@ body {
   margin-bottom: 30px;
 }
 
-.quiz-info {
+.quiz-top-row {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
 
+.header-actions {
+  justify-content: center;
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.header-actions button {
+  width: 48px;
+  height: 48px;
+
+  border: none;
+  border-radius: 14px;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.1rem;
+
+  transition: 0.2s ease;
+}
+
+#favoriteBtn {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+}
+
+#favoriteBtn:hover {
+  background: rgba(245, 158, 11, 0.22);
+}
+
+#quitBtn {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+}
+
+#quitBtn:hover {
+  background: rgba(239, 68, 68, 0.22);
+}
+
+.header-actions button:hover {
+  transform: translateY(-2px);
+}
+
+.favorite-btn {
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.favorite-btn i {
+  transition:
+    color 0.2s ease,
+    transform 0.25s ease;
+}
+
+.favorite-btn:active {
+  transform: scale(0.95);
+}
+
+.favorite-btn.active {
+  background: rgba(255, 193, 7, 0.15);
+}
+
+.favorite-btn.active i {
+  color: #ffc107;
+  transform: scale(1.2);
+  animation: starPop 0.3s ease;
+}
+
+@keyframes starPop {
+  0% {
+    transform: scale(0.8) rotate(-15deg);
+  }
+
+  50% {
+    transform: scale(1.35) rotate(10deg);
+  }
+
+  100% {
+    transform: scale(1.2) rotate(0deg);
+  }
+}
+
+.quiz-info {
+  display: flex;
+  flex: 1;
   gap: 20px;
 
   margin-bottom: 20px;
@@ -298,6 +392,8 @@ body {
 }
 
 .option-btn {
+  position: relative;
+  overflow: hidden;
   padding: 18px;
 
   text-align: left;
@@ -312,25 +408,49 @@ body {
 
   cursor: pointer;
 
-  transition: 0.25s;
+  transition:
+    background-color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
 }
 
 .option-btn:hover {
   transform: translateX(5px);
-
   background: #475569;
+}
+
+.option-btn:active {
+  transform: scale(0.98);
 }
 
 .option-btn.correct {
   background: #0a361a;
+  animation: answerReveal 0.35s ease;
 }
 
 .option-btn.wrong {
   background: #631414;
+  animation: answerReveal 0.35s ease;
 }
 
 .option-btn:disabled {
   cursor: default;
+}
+
+@keyframes answerReveal {
+  0% {
+    transform: scale(0.96);
+    opacity: 0.8;
+  }
+
+  60% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* ===== POVRATNA INFORMACIJA ===== */
@@ -358,6 +478,20 @@ body {
 
 .next-btn {
   margin-top: 25px;
+}
+
+.next-btn {
+  opacity: 0;
+  transform: translateY(10px);
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+.next-btn.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ===== REZULTATI ===== */
@@ -394,61 +528,6 @@ body {
   justify-content: center;
 
   gap: 15px;
-}
-
-/* ===== AKCIJSKI GUMBI ===== */
-
-.quiz-actions {
-  display: flex;
-  gap: 10px;
-
-  margin-top: 20px;
-}
-
-#favoriteBtn,
-#quitBtn {
-  flex: 1;
-
-  min-width: 0;
-
-  padding: 12px 10px;
-
-  border: none;
-  border-radius: 12px;
-
-  font-size: 0.9rem;
-  font-weight: 600;
-
-  cursor: pointer;
-
-  transition: all 0.25s ease;
-}
-
-#favoriteBtn {
-  background: rgba(245, 158, 11, 0.15);
-  color: #fbbf24;
-}
-
-#favoriteBtn:hover {
-  background: rgba(245, 158, 11, 0.25);
-
-  transform: translateY(-2px);
-}
-
-#quitBtn {
-  background: rgba(239, 68, 68, 0.12);
-  color: #f87171;
-}
-
-#quitBtn:hover {
-  background: rgba(239, 68, 68, 0.2);
-
-  transform: translateY(-2px);
-}
-
-#favoriteBtn:active,
-#quitBtn:active {
-  transform: translateY(0);
 }
 
 /* ===== STATISTIKA ===== */
@@ -684,7 +763,7 @@ body {
   }
 
   #question {
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     line-height: 1.3;
   }
@@ -748,6 +827,54 @@ body {
 
   .dashboard-top span {
     font-size: 0.8rem;
+  }
+  .quiz-top-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: 12px;
+    margin-bottom: 15px;
+  }
+
+  .quiz-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .info-box {
+    padding: 12px 8px;
+    border-radius: 14px;
+  }
+
+  .info-box span {
+    font-size: 0.8rem;
+  }
+
+  .info-box strong {
+    font-size: 1rem;
+  }
+
+  .header-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 0;
+
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .header-actions button {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+
+  .header-actions i {
+    font-size: 0.95rem;
   }
 }
 
